@@ -1,15 +1,15 @@
 {
   "as_of": "2026-10-19",
-  "records": 118,
-  "unique_urls": 81,
-  "current_price_records": 8,
-  "current_price_pois": 5,
-  "direct_pages": 17,
+  "records": 131,
+  "unique_urls": 94,
+  "current_price_records": 21,
+  "current_price_pois": 14,
+  "direct_pages": 30,
   "statuses": {
     "inactive": 3,
     "historical": 2,
+    "page_price": 21,
     "reference": 98,
-    "page_price": 8,
     "full": 2,
     "expired": 3,
     "future": 2
@@ -22,6 +22,14 @@
       "pois": 32,
       "direct_pages": 0,
       "eligible_quotes": 0
+    },
+    {
+      "name": "自如官方",
+      "records": 17,
+      "unique_urls": 17,
+      "pois": 10,
+      "direct_pages": 17,
+      "eligible_quotes": 15
     },
     {
       "name": "Wellcee",
@@ -38,14 +46,6 @@
       "pois": 5,
       "direct_pages": 0,
       "eligible_quotes": 0
-    },
-    {
-      "name": "自如官方",
-      "records": 4,
-      "unique_urls": 4,
-      "pois": 1,
-      "direct_pages": 4,
-      "eligible_quotes": 2
     },
     {
       "name": "58 / 安居客",
