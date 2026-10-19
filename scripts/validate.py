@@ -4,11 +4,23 @@ import math
 import pathlib
 import re
 import struct
+import sys
+from collections import Counter
 from urllib.parse import urlsplit
 
 root = pathlib.Path(__file__).resolve().parents[1]
 site = root / 'site'
 data = json.loads((site / 'data.json').read_text())
+sys.path.insert(0, str(root))
+from src.rental_evidence import canonical_url, date_only
+audit = data['evidence_audit']
+all_records = [r for p in data['points'] for r in p.get('research', {}).get('listings', [])]
+assert audit == json.loads((site / 'evidence-audit.json').read_text())
+assert audit['records'] == len(all_records)
+assert audit['current_price_records'] == sum(r['current_quote_eligible'] for r in all_records)
+assert audit['unique_urls'] == len({canonical_url(r['source_url']) for r in all_records})
+assert audit['direct_pages'] == len({canonical_url(r['source_url']) for r in all_records if r['direct_read']})
+assert audit['statuses'] == dict(Counter(r['freshness']['code'] for r in all_records))
 ids = set()
 numbers = set()
 for point in data['points']:
@@ -38,6 +50,20 @@ for point in data['points']:
             price = record.get('price_month')
             if price is not None:
                 assert isinstance(price, (int, float)) and price > 0
+            if record['current_quote_eligible']:
+                verification = record['verification']
+                assert record['direct_read'] and verification['method'] == 'direct_http'
+                assert verification['http_status'] == 200 and verification['readable_body']
+                age = (date_only(audit['as_of'])-date_only(verification['read_at'])).days
+                assert 0 <= age <= 7
+                assert record['availability_status'] in ['unconfirmed', 'source_available']
+                assert record['freshness']['code'] == 'page_price'
+                assert not record.get('historical')
+            if record['freshness']['code'] in ['full', 'future', 'expired', 'inactive', 'reference', 'historical']:
+                assert not record['current_quote_eligible']
+            # User activity and structured-data response dates never imply publication.
+            if record.get('publisher_last_active_at'):
+                assert not record.get('original_published_at'), 'Publication date needs separate primary evidence'
         assert isinstance(research.get('missing_fields'), list)
 
 for path in site.rglob('*'):
@@ -57,7 +83,8 @@ for path in site.rglob('*'):
 print(json.dumps({
     'points': len(ids),
     'eligible': sum(p['eligible'] for p in data['points']),
-    'with_monthly_samples': sum(any(r.get('price_month') for r in p.get('research', {}).get('listings', [])) for p in data['points']),
+    'with_recent_page_quotes': sum(bool(p['page_quote_count']) for p in data['points']),
+    'direct_pages': audit['direct_pages'],
     'with_research': sum(bool(p.get('research')) for p in data['points']),
     'public_assets': 'validated',
 }, ensure_ascii=False))
@@ -66,17 +93,27 @@ print(json.dumps({
 manifest = json.loads((site / 'maps/manifest.json').read_text())
 assert manifest['coordinateSystem'] == 'GCJ-02'
 assert manifest['tileSize'] == 1024 and manifest['scale'] == 2
-x0, y0, x1, y1 = manifest['tileRange']
-assert manifest['tileCount'] == (x1-x0+1)*(y1-y0+1)
-for x in range(x0, x1+1):
-    for y in range(y0, y1+1):
-        tile = site / f'maps/{manifest["nativeZoom"]}/{x}/{y}.png'
-        with tile.open('rb') as stream:
-            header = stream.read(24)
-        assert header.startswith(b'\x89PNG\r\n\x1a\n'), f'Invalid basemap {tile}'
-        assert struct.unpack('>II', header[16:24]) == (2048, 2048), f'Basemap dimensions {tile}'
-(south, west), (north, east) = manifest['bounds']
+assert manifest['tileCount'] == sum(level['tileCount'] for level in manifest['levels'].values())
+assert list(map(int, manifest['levels'])) == list(range(manifest['minZoom'], manifest['maxNativeZoom']+1))
+for zoom, level in manifest['levels'].items():
+    x0, y0, x1, y1 = level['tileRange']
+    assert level['tileCount'] == (x1-x0+1)*(y1-y0+1)
+    for x in range(x0, x1+1):
+        for y in range(y0, y1+1):
+            tile = site / f'maps/{zoom}/{x}/{y}.png'
+            with tile.open('rb') as stream:
+                header = stream.read(24)
+            assert header.startswith(b'\x89PNG\r\n\x1a\n'), f'Invalid basemap {tile}'
+            assert struct.unpack('>II', header[16:24]) == (2048, 2048), f'Basemap dimensions {tile}'
+(south, west), (north, east) = manifest['coverageBounds']
 for p in data['points'] + [data['destination'], data['transit_exit']]:
     lon, lat = map(float, p['location'].split(','))
     assert west <= lon <= east and south <= lat <= north, f'POI outside cached basemap: {p["name"]}'
-print(f'Local basemap validated: {manifest["tileCount"]} detailed tiles, all POIs covered')
+    for zoom, level in manifest['levels'].items():
+        size = 256 * 2**int(zoom)
+        sine = math.sin(math.radians(lat))
+        tx = math.floor((lon+180)/360*size/1024)
+        ty = math.floor((.5-math.log((1+sine)/(1-sine))/(4*math.pi))*size/1024)
+        x0, y0, x1, y1 = level['tileRange']
+        assert x0 <= tx <= x1 and y0 <= ty <= y1, f'POI outside zoom {zoom}: {p["name"]}'
+print(f'Local basemap validated: {manifest["tileCount"]} tiles across {len(manifest["levels"])} levels, all POIs covered')
