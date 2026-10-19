@@ -1,0 +1,25 @@
+{
+  "nativeZoom": 15,
+  "tileSize": 1024,
+  "scale": 2,
+  "bounds": [
+    [
+      39.943436461974215,
+      116.279296875
+    ],
+    [
+      40.044437584608566,
+      116.4990234375
+    ]
+  ],
+  "tileRange": [
+    6742,
+    3100,
+    6746,
+    3102
+  ],
+  "tileCount": 15,
+  "source": "Amap Static Maps API",
+  "coordinateSystem": "GCJ-02",
+  "captured_at": "2026-10-19"
+}

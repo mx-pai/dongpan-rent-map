@@ -3,6 +3,7 @@ import json
 import math
 import pathlib
 import re
+import struct
 from urllib.parse import urlsplit
 
 root = pathlib.Path(__file__).resolve().parents[1]
@@ -60,3 +61,22 @@ print(json.dumps({
     'with_research': sum(bool(p.get('research')) for p in data['points']),
     'public_assets': 'validated',
 }, ensure_ascii=False))
+
+# Georeferenced local basemap files must cover all published point coordinates.
+manifest = json.loads((site / 'maps/manifest.json').read_text())
+assert manifest['coordinateSystem'] == 'GCJ-02'
+assert manifest['tileSize'] == 1024 and manifest['scale'] == 2
+x0, y0, x1, y1 = manifest['tileRange']
+assert manifest['tileCount'] == (x1-x0+1)*(y1-y0+1)
+for x in range(x0, x1+1):
+    for y in range(y0, y1+1):
+        tile = site / f'maps/{manifest["nativeZoom"]}/{x}/{y}.png'
+        with tile.open('rb') as stream:
+            header = stream.read(24)
+        assert header.startswith(b'\x89PNG\r\n\x1a\n'), f'Invalid basemap {tile}'
+        assert struct.unpack('>II', header[16:24]) == (2048, 2048), f'Basemap dimensions {tile}'
+(south, west), (north, east) = manifest['bounds']
+for p in data['points'] + [data['destination'], data['transit_exit']]:
+    lon, lat = map(float, p['location'].split(','))
+    assert west <= lon <= east and south <= lat <= north, f'POI outside cached basemap: {p["name"]}'
+print(f'Local basemap validated: {manifest["tileCount"]} detailed tiles, all POIs covered')

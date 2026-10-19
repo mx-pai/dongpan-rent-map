@@ -1,6 +1,6 @@
 # 东畔租房通勤地图
 
-[打开租房地图](https://mx-pai.github.io/dongpan-rent-map/) · [查看流程与数据覆盖](https://mx-pai.github.io/dongpan-rent-map/method.html) · [GitHub Actions](https://github.com/mx-pai/dongpan-rent-map/actions)
+[打开租房地图](https://mx-pai.cn/dongpan-rent-map/) · [查看流程与数据覆盖](https://mx-pai.cn/dongpan-rent-map/method.html) · [GitHub Actions](https://github.com/mx-pai/dongpan-rent-map/actions)
 
 以北京东畔科创中心 A 座为终点，比较住宅小区、长租公寓、酒店与青旅的房源信息和实际规划通勤时间
 
@@ -11,6 +11,12 @@
 页面支持按住宿类型、通勤口径、出租方式、月租样本和独立卫浴筛选，点击点位可以查看步行、骑行、地铁自动全程、分段接驳时间，以及每条房源的面积、房型、卫浴、费用、租期、原始来源与信息日期
 
 租金按具体样本记录，整租和合租分别展示，历史代理房源、搜索抓取文本、已读取的页面和信息冲突均保留标记，青旅独立单人间和多人间床位分开记录，未公开包月价的住宿保留待核对状态
+
+地图支持惯性拖动、双指与滚轮缩放、点位聚合展开、路线切换、查看当前路线和全屏，标记保持固定屏幕大小，列表和详情同步选中，备选清单保存在浏览器本地
+
+地点可复制名称、地址、坐标、分享链接和路线文本，清单可复制或导出 CSV / JSON，“带到高德”支持单个地点、步行 / 骑行 / 公共交通规划，以及通勤三段分别打开，备选地点按每组9个住处和A座生成高德多点展示链接，收藏和实时导航在高德中确认
+
+地图 URI 通过[高德官方规范](https://lbs.amap.com/api/uri-api/guide/travel/route)传递坐标和方式，骑行 URI 适用于手机端，高德打开后会按当前条件重新规划，各段截图和时长仍需在 App 内核对
 
 ## 通勤怎么计算
 
@@ -58,13 +64,36 @@ API响应缓存在被忽略的 `.cache/`，有效期24小时，请求节流和�
 
 租房及住宿页面需按原始链接人工核对，更新证据JSON后运行 `python3 scripts/import_evidence.py docs/rental-evidence.json`，导入脚本保留路线字段，提交前运行 `python3 scripts/validate.py`
 
+## 地图底图与交互
+
+网页使用随仓库分发的 Leaflet 1.9.4 与 Leaflet.markercluster 1.5.3，许可证位于 `site/vendor/leaflet/`，运行时资源来自站点自身
+
+`site/map.png` 提供概览底图，`site/maps/` 提供15个详细地图分块，浏览器按缩放与可见区域加载，清晰度相当于标准 Mercator 16级，地图展示本次找房区域，底图快照日期列在清单中，图像与高德路线都使用 GCJ-02 坐标
+
+底图通过官方静态地图 API 获取，运行 `python3 scripts/cache_basemap.py` 可补齐缺失分块，使用环境变量 `AMAP_API_KEY`，`--force` 可重新采集，采样范围从发布快照中的POI坐标加边距计算，分块尺寸与地理边界保存在 `site/maps/manifest.json`
+
+前端地图交互在 `site/map.js`，高德 URI 编排在 `site/amap-links.js`，界面和复制、备选、筛选在 `site/app.js`，手机使用可展开的地点面板，减少动效偏好应用到地图动画，浏览器未允许自动复制时提供可选中的文本
+
 ## GitHub Actions 与 Pages
 
-`.github/workflows/pages.yml` 在推送main分支或手动触发时校验数据，构建 `_site/`，上传 Pages 产物并部署到 `github-pages` 环境，仓库 Pages 发布源设置为 **GitHub Actions**
+`.github/workflows/pages.yml` 在推送main分支或手动触发时校验数据，构建 `_site/`，运行桌面与手机浏览器检查，上传 Pages 产物并部署到 `github-pages` 环境，仓库 Pages 发布源设置为 **GitHub Actions**
 
 `.github/workflows/refresh.yml` 提供手动路线测量，使用仓库 Secret `AMAP_API_KEY`，默认测量前5个选中点位，结果作为 `refreshed-routes` 产物供下载核对，确认后更新仓库数据并推送即可触发网页发布，公共房源报价不随路线测量自动更新
 
 Pages静态发布不需要高德key，工作流的通勤测量任务才会读取Secret，前端与部署产物的校验会检查常见token、明文key及本机绝对路径
+
+## 浏览器验证
+
+发布工作流使用 Playwright 检查地图加载、单地点筛选后的标记、地点复制、三段高德路线参数、地点组上限、全屏和手机布局，检查通过后再部署，测试读取本地快照并启动本地服务器
+
+本机运行这组检查需要 Node.js 22 或更新版本：
+
+```sh
+npm ci
+npx playwright install chromium
+python3 scripts/build.py
+npm run check:browser
+```
 
 ## 来源与边界
 

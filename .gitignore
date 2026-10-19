@@ -11,3 +11,5 @@ __pycache__/
 .cache/
 .DS_Store
 .openai/
+node_modules/
+test-results/

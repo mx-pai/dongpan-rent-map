@@ -24,6 +24,16 @@ jobs:
         run: python scripts/validate.py
       - name: Build static website
         run: python scripts/build.py
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Install browser check dependencies
+        run: npm ci
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Check map interaction and Amap links
+        run: npm run check:browser
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
