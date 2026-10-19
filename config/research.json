@@ -1,0 +1,612 @@
+{
+  "destination": {
+    "name": "东畔科创中心 A 座",
+    "location": "116.366962,40.002384",
+    "id": "B0LKY74JQZ"
+  },
+  "limits_seconds": {
+    "walking": 1800,
+    "bicycling": 1200,
+    "metro_full_or_segmented": 1200,
+    "rail_only_reference": 1200
+  },
+  "station_exit": {
+    "name": "北沙滩 A西北口",
+    "location": "116.367223,40.001733"
+  },
+  "coordinate_system": "GCJ-02",
+  "points": [
+    {
+      "id": "B000A84HCS",
+      "map_id": "01",
+      "name": "清华东路甲7号院",
+      "kind": "housing",
+      "location": "116.364365,40.001785",
+      "address": "二里庄北口(北沙滩地铁站A西北口步行270米)"
+    },
+    {
+      "id": "B0K2ZC2ESI",
+      "map_id": "02",
+      "name": "中国农机院青年人才公寓",
+      "kind": "apartment",
+      "location": "116.369404,40.004226",
+      "address": "北沙滩1号院农机院西门(北沙滩地铁站B2东北口步行330米)"
+    },
+    {
+      "id": "B000A85E7A",
+      "map_id": "03",
+      "name": "北沙滩4号院",
+      "kind": "housing",
+      "location": "116.368594,40.005190",
+      "address": "北沙滩桥北100米(北沙滩胜利饭店西侧)"
+    },
+    {
+      "id": "B000A7ZORE",
+      "map_id": "04",
+      "name": "二里庄北里",
+      "kind": "housing",
+      "location": "116.365974,39.999344",
+      "address": "志新西路17号(北沙滩地铁站A西北口步行490米)"
+    },
+    {
+      "id": "B0FFG8URUR",
+      "map_id": "05",
+      "name": "海淀区清华东路9号院",
+      "kind": "housing",
+      "location": "116.362323,40.002251",
+      "address": "清华东路9号"
+    },
+    {
+      "id": "B0IGTHH423",
+      "map_id": "06",
+      "name": "如家华驿酒店(北京奥林匹克公园北沙滩地铁站店)",
+      "kind": "hotel",
+      "location": "116.368471,40.005764",
+      "address": "北沙滩甲6号2幢(北沙滩地铁站B2东北口步行440米)"
+    },
+    {
+      "id": "B000A7XKGC",
+      "map_id": "07",
+      "name": "志新西路1号院",
+      "kind": "housing",
+      "location": "116.364061,39.999427",
+      "address": "志新西路1号(北沙滩地铁站A西北口步行430米)"
+    },
+    {
+      "id": "B0FFFAHBID",
+      "map_id": "08",
+      "name": "双泉堡甲一号院",
+      "kind": "housing",
+      "location": "116.367888,40.006075",
+      "address": "京藏高速公路甲1号"
+    },
+    {
+      "id": "B0K1KUE6KH",
+      "map_id": "09",
+      "name": "住总寓共享际公寓(海淀志新西路店)",
+      "kind": "apartment",
+      "location": "116.363925,39.998527",
+      "address": "志新西路3-1号1号楼"
+    },
+    {
+      "id": "B0KRM7WOJQ",
+      "map_id": "10",
+      "name": "WOWOTEL·窝窝酒店(北京农业大学北沙滩地铁站店)",
+      "kind": "hotel",
+      "location": "116.361021,40.001557",
+      "address": "清华东路11号2幢一层、二层"
+    },
+    {
+      "id": "B0FFF5BGGZ",
+      "map_id": "11",
+      "name": "北沙滩6号院",
+      "kind": "housing",
+      "location": "116.370514,40.006163",
+      "address": "北四环八达玲高速北沙滩桥北50米"
+    },
+    {
+      "id": "B000A81FG5",
+      "map_id": "12",
+      "name": "南沙滩和谐小区",
+      "kind": "housing",
+      "location": "116.372366,39.999966",
+      "address": "南沙滩(北沙滩地铁站C东南口步行190米)"
+    },
+    {
+      "id": "B0FFGY4QJA",
+      "map_id": "13",
+      "name": "北京永诚林萃中天国际公寓",
+      "kind": "apartment",
+      "location": "116.371296,40.006527",
+      "address": "城乡经济信息中心东南侧50米"
+    },
+    {
+      "id": "B000A8U2UZ",
+      "map_id": "14",
+      "name": "冠军城",
+      "kind": "housing",
+      "location": "116.373712,40.000714",
+      "address": "大屯路北沙滩桥东南角(北沙滩地铁站B2东北口步行360米)"
+    },
+    {
+      "id": "B000A84JH4",
+      "map_id": "15",
+      "name": "二里庄小区",
+      "kind": "housing",
+      "location": "116.368436,39.997013",
+      "address": "志新路27号"
+    },
+    {
+      "id": "B0FFIBY7TJ",
+      "map_id": "16",
+      "name": "北京酒店式公寓(北沙滩路分店)",
+      "kind": "apartment",
+      "location": "116.371675,40.006575",
+      "address": "亚奥南沙滩北沙滩胜利饭店附近北沙滩七号院中天国际906"
+    },
+    {
+      "id": "B0MBFD61XX",
+      "map_id": "17",
+      "name": "念念公寓民宿(北京亚运村奥体中心六道口地铁站店)",
+      "kind": "apartment",
+      "location": "116.371575,40.006725",
+      "address": "幸福路与致远路交叉口北120米"
+    },
+    {
+      "id": "B0MDV5N59C",
+      "map_id": "18",
+      "name": "汉庭快捷酒店(北京科技大学北沙滩地铁站酒店)",
+      "kind": "hotel",
+      "location": "116.365589,39.996203",
+      "address": "志新西路10号"
+    },
+    {
+      "id": "B0MDO1WXXM",
+      "map_id": "19",
+      "name": "小奥公寓(亚运村奥体中心一店)",
+      "kind": "apartment",
+      "location": "116.372875,40.007225",
+      "address": "北沙滩路与北沙滩北一路交叉口东南40米"
+    },
+    {
+      "id": "B0MRHCEF4H",
+      "map_id": "20",
+      "name": "沐萃公寓",
+      "kind": "apartment",
+      "location": "116.375349,40.006428",
+      "address": "林萃路与科荟南路交叉口西北20米"
+    },
+    {
+      "id": "B0FFK4CH8M",
+      "map_id": "21",
+      "name": "石油大院",
+      "kind": "housing",
+      "location": "116.359080,39.996927",
+      "address": "志新路与图书馆北路交叉口北400米"
+    },
+    {
+      "id": "B0L2NHI25X",
+      "map_id": "22",
+      "name": "瑞德公寓",
+      "kind": "apartment",
+      "location": "116.358854,39.997050",
+      "address": "学院路街道学院路20院"
+    },
+    {
+      "id": "B000A84BTK",
+      "map_id": "23",
+      "name": "石科院生活区",
+      "kind": "housing",
+      "location": "116.356617,39.998859",
+      "address": "学院路18号院"
+    },
+    {
+      "id": "B0H2NHE1PB",
+      "map_id": "24",
+      "name": "自如寓(学院路店)",
+      "kind": "apartment",
+      "location": "116.366994,39.993409",
+      "address": "志新路甲16-1号"
+    },
+    {
+      "id": "B0FFFW696C",
+      "map_id": "25",
+      "name": "安翔北里8号院",
+      "kind": "housing",
+      "location": "116.375670,39.995817",
+      "address": "科学园南里西街与军民团结路交叉口东南160米"
+    },
+    {
+      "id": "B000A88EG6",
+      "map_id": "26",
+      "name": "志新北里小区",
+      "kind": "housing",
+      "location": "116.367220,39.992610",
+      "address": "志新路16号"
+    },
+    {
+      "id": "B0JG49EVTZ",
+      "map_id": "27",
+      "name": "vick美宿公寓(学清路分店)",
+      "kind": "apartment",
+      "location": "116.353775,40.001825",
+      "address": "学清路金码大厦1单元(六道口地铁站B东北口步行170米)"
+    },
+    {
+      "id": "B000A7FH6T",
+      "map_id": "28",
+      "name": "富润家园",
+      "kind": "housing",
+      "location": "116.354008,39.999899",
+      "address": "中关村清华东路与学院路交叉口(六道口地铁站E口步行70米)"
+    },
+    {
+      "id": "B0FFKNMPKW",
+      "map_id": "29",
+      "name": "城家公寓北京中关村六道口地铁站店",
+      "kind": "apartment",
+      "location": "116.354060,39.998957",
+      "address": "学院路16号1号楼(六道口地铁站E口步行260米)"
+    },
+    {
+      "id": "B0FFF2GV9V",
+      "map_id": "30",
+      "name": "林萃西里",
+      "kind": "housing",
+      "location": "116.370962,40.012519",
+      "address": "林萃西里二号路"
+    },
+    {
+      "id": "B0K2L5I9NA",
+      "map_id": "31",
+      "name": "创业公社37度公寓(志新东路项目)",
+      "kind": "apartment",
+      "location": "116.368925,39.991425",
+      "address": "志新东路5-1号"
+    },
+    {
+      "id": "B0L1L5F2H6",
+      "map_id": "32",
+      "name": "澳林春天(林萃路)",
+      "kind": "housing",
+      "location": "116.374520,40.012194",
+      "address": "林萃西里"
+    },
+    {
+      "id": "B000A9LW64",
+      "map_id": "33",
+      "name": "国奥村",
+      "kind": "housing",
+      "location": "116.380807,40.008182",
+      "address": "林萃东路1号院"
+    },
+    {
+      "id": "B000A87K2C",
+      "map_id": "34",
+      "name": "志新村小区",
+      "kind": "housing",
+      "location": "116.367394,39.989812",
+      "address": "北四环中路229号"
+    },
+    {
+      "id": "B000A8UURV",
+      "map_id": "35",
+      "name": "风林绿洲",
+      "kind": "housing",
+      "location": "116.383546,40.000488",
+      "address": "大屯路科学院南里1号"
+    },
+    {
+      "id": "B000A81I4Z",
+      "map_id": "36",
+      "name": "学知园",
+      "kind": "housing",
+      "location": "116.355291,40.012145",
+      "address": "学清路16号(小月河西路西侧)"
+    },
+    {
+      "id": "B0JUAXZQI4",
+      "map_id": "37",
+      "name": "桃花坞青年旅舍(六道口地铁站店)",
+      "kind": "hostel",
+      "location": "116.349562,40.002746",
+      "address": "清华东路与静淑苑路交叉口北200米"
+    },
+    {
+      "id": "B000A844IN",
+      "map_id": "38",
+      "name": "静淑苑小区",
+      "kind": "housing",
+      "location": "116.349872,40.004972",
+      "address": "林大北路(农业大学对面)"
+    },
+    {
+      "id": "B000A9PSHI",
+      "map_id": "39",
+      "name": "安翔里社区西区",
+      "kind": "housing",
+      "location": "116.379786,39.993238",
+      "address": "安翔里西路与安翔北路辅路交叉口西南100米"
+    },
+    {
+      "id": "B0FFFTR33K",
+      "map_id": "40",
+      "name": "科学园南里",
+      "kind": "housing",
+      "location": "116.383716,39.997619",
+      "address": ""
+    },
+    {
+      "id": "B000A8U2UX",
+      "map_id": "41",
+      "name": "健翔园社区",
+      "kind": "housing",
+      "location": "116.374723,39.990029",
+      "address": "北四环中路209号"
+    },
+    {
+      "id": "B0KR75JEO0",
+      "map_id": "42",
+      "name": "wohkoon者行孙酒店(北京学清路农业大学店)",
+      "kind": "hostel",
+      "location": "116.353130,40.012173",
+      "address": "学知园6号学知轩2层(学知园地铁站C口步行250米)"
+    },
+    {
+      "id": "B0KUF9YOCW",
+      "map_id": "43",
+      "name": "启航青年公寓",
+      "kind": "hostel",
+      "location": "116.352951,40.012211",
+      "address": "学清路辅路与月清路交叉口东南60米"
+    },
+    {
+      "id": "B000A88E11",
+      "map_id": "44",
+      "name": "文成杰座住宅楼",
+      "kind": "housing",
+      "location": "116.347418,40.006889",
+      "address": "林业大学北路18号文成杰座小区(近林业大学、柏儒苑小区对面)"
+    },
+    {
+      "id": "B000A844QR",
+      "map_id": "45",
+      "name": "清林苑",
+      "kind": "housing",
+      "location": "116.356272,40.016352",
+      "address": "学院路"
+    },
+    {
+      "id": "B000A844H6",
+      "map_id": "46",
+      "name": "清枫华景园",
+      "kind": "housing",
+      "location": "116.348005,40.011351",
+      "address": "中关村五道口林大北路"
+    },
+    {
+      "id": "B000A844P5",
+      "map_id": "47",
+      "name": "逸成东苑",
+      "kind": "housing",
+      "location": "116.349070,40.013544",
+      "address": "月泉路9号(学知园地铁站D口旁)"
+    },
+    {
+      "id": "B000A7OVSB",
+      "map_id": "48",
+      "name": "东王庄小区",
+      "kind": "housing",
+      "location": "116.343749,39.999171",
+      "address": "王庄路15号(清华东路西口地铁站B东北口步行270米)"
+    },
+    {
+      "id": "B000A9NPC3",
+      "map_id": "49",
+      "name": "华严北里8号院",
+      "kind": "housing",
+      "location": "116.382641,39.986727",
+      "address": "华严北里8号院3"
+    },
+    {
+      "id": "B000AA4HID",
+      "map_id": "50",
+      "name": "八家嘉园",
+      "kind": "housing",
+      "location": "116.343486,40.016520",
+      "address": "双清路9号"
+    },
+    {
+      "id": "B0FFFDS0Q8",
+      "map_id": "51",
+      "name": "牡丹园小区",
+      "kind": "housing",
+      "location": "116.374650,39.978438",
+      "address": "花园路街道"
+    },
+    {
+      "id": "B0HAJA6VZZ",
+      "map_id": "52",
+      "name": "目田客栈(北京五道口地铁站店)",
+      "kind": "hostel",
+      "location": "116.337023,39.991420",
+      "address": "五道口东升园华清嘉园13号楼1A、1B、1C"
+    },
+    {
+      "id": "B0FFJLH72K",
+      "map_id": "53",
+      "name": "北京友客青年旅舍",
+      "kind": "hostel",
+      "location": "116.336925,39.991475",
+      "address": "成府路华清嘉园13号楼底商(五道口地铁站B南口步行220米)"
+    },
+    {
+      "id": "B0HA14DD1N",
+      "map_id": "54",
+      "name": "塔院小区",
+      "kind": "housing",
+      "location": "116.361080,39.976895",
+      "address": "北土城西路175号"
+    },
+    {
+      "id": "B0LRX93OXK",
+      "map_id": "55",
+      "name": "北京503青年旅舍(五道口店)",
+      "kind": "hostel",
+      "location": "116.334875,39.991125",
+      "address": "东升路与社区自治道路交叉口北180米"
+    },
+    {
+      "id": "B000A844YY",
+      "map_id": "56",
+      "name": "天创世缘",
+      "kind": "housing",
+      "location": "116.406204,40.003386",
+      "address": "大屯路甲21号(安立路地铁站A1西北口步行420米)"
+    },
+    {
+      "id": "B000A845DY",
+      "map_id": "57",
+      "name": "慧忠北里",
+      "kind": "housing",
+      "location": "116.406653,40.006965",
+      "address": "亚运村"
+    },
+    {
+      "id": "B0L0C7ZMX4",
+      "map_id": "58",
+      "name": "嘻雅途青年酒店(北京鸟巢安立路地铁站店)",
+      "kind": "hostel",
+      "location": "116.408625,40.003025",
+      "address": "安立路66号安立写字楼C座F8层(安立路地铁站B东北口旁)"
+    },
+    {
+      "id": "B0J3DXEXH6",
+      "map_id": "59",
+      "name": "北京星辰青年公寓",
+      "kind": "hostel",
+      "location": "116.409415,40.005501",
+      "address": "安立路60号院润枫德尚苑1号楼103室"
+    },
+    {
+      "id": "B000A9PRWT",
+      "map_id": "60",
+      "name": "安慧北里安园西区",
+      "kind": "housing",
+      "location": "116.409540,39.999638",
+      "address": "慧忠北路(安立路地铁站C东南口步行480米)"
+    },
+    {
+      "id": "B000A84NTX",
+      "map_id": "61",
+      "name": "裕民东里",
+      "kind": "housing",
+      "location": "116.387218,39.973297",
+      "address": "裕民路"
+    },
+    {
+      "id": "B0FFFAJ4WX",
+      "map_id": "62",
+      "name": "永泰园南区",
+      "kind": "housing",
+      "location": "116.349273,40.033314",
+      "address": "清河永泰庄路(清河小营桥地铁站B3口步行390米)"
+    },
+    {
+      "id": "B0JA61FTW2",
+      "map_id": "63",
+      "name": "温馨青年公寓",
+      "kind": "hostel",
+      "location": "116.411293,39.998499",
+      "address": "安慧北里雅园4号楼底商106"
+    },
+    {
+      "id": "B000A09E2C",
+      "map_id": "64",
+      "name": "安慧里",
+      "kind": "housing",
+      "location": "116.411905,39.992350",
+      "address": "安立路"
+    },
+    {
+      "id": "B0FFF3CEQ3",
+      "map_id": "65",
+      "name": "安苑北里小区",
+      "kind": "housing",
+      "location": "116.409549,39.985294",
+      "address": "亚运村奥体东门附近"
+    },
+    {
+      "id": "B000A81I7R",
+      "map_id": "66",
+      "name": "世茂奥临花园",
+      "kind": "housing",
+      "location": "116.402692,40.034238",
+      "address": "清林路1号"
+    },
+    {
+      "id": "B000A81FW3",
+      "map_id": "67",
+      "name": "保利·香槟",
+      "kind": "housing",
+      "location": "116.425612,39.995810",
+      "address": "小营路东侧,阳明国际公寓"
+    },
+    {
+      "id": "B000AA8ILC",
+      "map_id": "68",
+      "name": "育慧里",
+      "kind": "housing",
+      "location": "116.427485,39.993380",
+      "address": "朝阳育惠里"
+    },
+    {
+      "id": "B000A7IKQQ",
+      "map_id": "69",
+      "name": "世纪村三区",
+      "kind": "housing",
+      "location": "116.428587,39.995844",
+      "address": "育慧北路8号"
+    },
+    {
+      "id": "B000A87HHJ",
+      "map_id": "70",
+      "name": "天畅园",
+      "kind": "housing",
+      "location": "116.416122,40.035047",
+      "address": "北苑路和红军营南路交叉口西北角"
+    },
+    {
+      "id": "B000A84K5K",
+      "map_id": "71",
+      "name": "育慧南路小区",
+      "kind": "housing",
+      "location": "116.430567,39.986940",
+      "address": "育慧南路甲1号"
+    },
+    {
+      "id": "B000A7PGY2",
+      "map_id": "72",
+      "name": "季景·沁园",
+      "kind": "housing",
+      "location": "116.455121,39.995802",
+      "address": "南湖西园甲210号(望京西地铁站C东北口步行400米)"
+    },
+    {
+      "id": "B0H07148TS",
+      "map_id": "73",
+      "name": "望京新城",
+      "kind": "housing",
+      "location": "116.472585,39.998492",
+      "address": "望京西园四区(望京地铁站A西北口步行370米)"
+    },
+    {
+      "id": "B000A7Y8CZ",
+      "map_id": "74",
+      "name": "慧谷阳光",
+      "kind": "housing",
+      "location": "116.480242,40.003388",
+      "address": "望京东园二区"
+    }
+  ]
+}

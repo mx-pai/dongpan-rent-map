@@ -1,0 +1,13 @@
+work/
+log/
+outputs/
+_site/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+.cache/
+.DS_Store
+.openai/

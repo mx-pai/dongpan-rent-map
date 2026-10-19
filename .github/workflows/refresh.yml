@@ -1,0 +1,38 @@
+name: Measure routes manually
+
+on:
+  workflow_dispatch:
+    inputs:
+      poi_ids:
+        description: 'POI IDs or map numbers separated by commas; empty means all'
+        default: ''
+      max_points:
+        description: 'Maximum POIs to measure; 0 means all'
+        default: '5'
+
+permissions:
+  contents: read
+
+jobs:
+  measure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Measure selected routes
+        env:
+          AMAP_API_KEY: ${{ secrets.AMAP_API_KEY }}
+          POI_IDS: ${{ inputs.poi_ids }}
+          MAX_POINTS: ${{ inputs.max_points }}
+        run: |
+          test -n "$AMAP_API_KEY" || { echo 'Add repository secret AMAP_API_KEY first'; exit 1; }
+          python scripts/refresh_routes.py --ids "$POI_IDS" --max-points "$MAX_POINTS"
+          python scripts/validate.py
+      - name: Upload reviewable dataset
+        uses: actions/upload-artifact@v4
+        with:
+          name: refreshed-routes
+          path: site/data.json
+          retention-days: 14

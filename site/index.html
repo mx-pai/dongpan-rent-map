@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>东畔 A 座租房通勤地图</title>
+  <meta name="description" content="查看东畔科创中心A座周边小区、公寓、酒店与青旅的步行、骑行及分段地铁通勤测算">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="page-head">
+    <div><h1>住在东畔附近</h1><p>以东畔科创中心 A 座为终点，比较住宅、公寓和独立住宿</p></div>
+    <div class="head-meta"><span>北京北沙滩</span><span>查询日期 2026-10-19</span></div>
+  </header>
+
+  <nav class="page-nav" aria-label="项目导航"><a class="current" href="index.html">地图与房源</a><a href="method.html">流程与复现</a><a href="https://github.com/mx-pai/dongpan-rent-map" target="_blank" rel="noopener noreferrer">GitHub 源码</a><a href="https://github.com/mx-pai/dongpan-rent-map/actions" target="_blank" rel="noopener noreferrer">Actions 发布记录</a></nav>
+
+  <main>
+    <section id="research-summary" class="research-summary" aria-label="信息覆盖情况"></section>
+    <section class="filters" aria-label="筛选住处">
+      <div class="kind-buttons" role="group" aria-label="住宿类型">
+        <button data-kind="all" class="active" aria-pressed="true">全部类型</button>
+        <button data-kind="housing" aria-pressed="false">住宅小区</button>
+        <button data-kind="apartment" aria-pressed="false">公寓</button>
+        <button data-kind="hotel" aria-pressed="false">酒店</button>
+        <button data-kind="hostel" aria-pressed="false">青旅 / 青年住宿</button>
+      </div>
+      <div class="filter-fields">
+        <label>通勤条件<select id="commute"><option value="eligible">满足任一时间条件</option><option value="walk">步行 ≤30 分钟</option><option value="bike">自行车 ≤20 分钟</option><option value="metro">地铁或分段合计 ≤20 分钟</option><option value="rail">地铁线路段 ≤20 分钟，接驳另计</option><option value="all">全部已测点位</option></select></label>
+        <label class="search-label">找小区或门店<input id="search" type="search" placeholder="如 二里庄、自如、单人间" autocomplete="off"></label>
+        <label class="verified-label"><input id="private-room" type="checkbox">已找到独立房间信息</label>
+      </div>
+      <details class="advanced-filters"><summary>按租住方式、月租样本和信息完整度筛选</summary><div class="evidence-filters"><label>租住方式<select id="rental-mode"><option value="all">全部租住方式</option><option value="share">住宅合租</option><option value="whole">住宅整租</option><option value="apartment">公寓独立单元</option><option value="room">酒店 / 青旅独立客房</option><option value="bed">青旅多人间床位</option></select></label><label>信息条件<select id="evidence-filter"><option value="all">全部核查结果</option><option value="monthly">有月租数字样本</option><option value="bathroom">有独立卫浴信息</option><option value="missing">房型或报价仍待补</option></select></label><label>月租样本上限<select id="budget"><option value="all">不限预算，先了解市场</option><option value="3000">3000 元 / 月以内</option><option value="5000">5000 元 / 月以内</option><option value="8000">8000 元 / 月以内</option></select></label></div></details>
+      <p class="filter-explain">价格筛选按公开样本计算，历史报价和出租方式有冲突的记录单独标注，当前房态按来源核对</p>
+    </section>
+
+    <div class="map-status"><p id="result-count" aria-live="polite"></p><p class="map-legend"><span style="color:var(--walk)">● 步行范围</span><span style="color:var(--bike)">● 骑行扩展</span><span style="color:var(--metro)">● 地铁 / 分段扩展</span><span style="color:var(--ref)">○ 本次测算超时</span></p></div>
+    <section class="explorer" aria-label="地图及点位详情">
+      <div class="map-wrap">
+        <svg id="map" viewBox="0 0 2048 1536" role="img" aria-label="东畔科创中心周边住宿点位地图，可点击点位查看信息">
+          <g id="map-scene"><image href="map.png" x="0" y="0" width="2048" height="1536"/><g id="route-layer"></g><g id="marker-layer"></g></g>
+        </svg>
+        <div class="map-controls" aria-label="地图缩放"><button id="zoom-in" aria-label="放大地图">+</button><button id="zoom-out" aria-label="缩小地图">−</button><button id="reset-view">查看所选范围</button></div>
+        <div class="map-credit">底图 © 高德地图　路线为接口估算</div>
+      </div>
+      <aside id="detail" aria-live="polite" aria-label="所选住处详情"></aside>
+    </section>
+
+    <section class="findings">
+      <div><h2>可以从这些方向开始看</h2><p>近处看二里庄、北沙滩，骑行可拓展到六道口、学清路与东王庄，地铁分段可看安立路周边的具体点位</p></div>
+      <p>按你补充的规则，分段方案把到站、地铁段和到办公楼的时间相加，地铁线路段另列，具体门址和地图 App 页面显示时长需要复测</p>
+    </section>
+
+    <section class="list-section">
+      <div class="section-line"><h2>点位清单</h2><button id="download-data">下载当前清单</button></div>
+      <div class="table-wrap"><table><thead><tr><th>住处 / 门店</th><th>步行</th><th>自行车</th><th>地铁自动全程</th><th>分段最佳合计</th><th>租住信息</th></tr></thead><tbody id="poi-table"></tbody></table></div>
+      <p id="empty-state" hidden>当前筛选没有匹配点位，可以调整住宿类型或通勤条件</p>
+    </section>
+
+    <section class="method">
+      <h2>测量口径与信息状态</h2>
+      <p>路线方向为住处到 A 座，小区采用高德住宅点位，酒店与公寓采用门店点位；步行和自行车直接测量，地铁按 2026-10-20 08:30 查询，分段分别测量到站接驳、入口到北沙滩 A 西北口的地铁方案、出站到 A 座</p>
+      <p>地铁分段包含该段规划中的站内步行、换乘与预计等车；页面同时显示地铁线路段时长，供你按乘车 20 分钟的口径查看，骑行接驳取决于可取还车位置</p>
+      <p>这是已测点位的找房地图，覆盖范围由采样点表示；房间库存、月租报价与是否可开具所需租赁材料请按具体房源核对，青旅的独立房与多人间床位按来源分别标注</p>
+      <p>申请时应在地图 App 的各测距方式页面分别截图，以页面显示时长加总为准；这里的地图与测算信息可用于选址参考</p>
+      <p class="source-caption">来源：高德 POI 与路线规划 API、自如官方、我爱我家、贝壳、Wellcee、58 / 安居客及住宿预订平台　信息核查日期 2026-10-19，原始房源日期另列</p>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,3128 @@
+{
+  "B000A84HCS": {
+    "checked_at": "2026-10-19",
+    "status": "仅取得历史租赁样本",
+    "listings": [
+      {
+        "title": "朝南主卧历史挂牌",
+        "mode": "合租",
+        "layout": "整套3室1厅1卫",
+        "area_sqm": 25,
+        "price_month": 3400,
+        "bathroom": "来源未说明独立卫浴",
+        "kitchen": "来源未说明厨房使用方式",
+        "terms": "押一付三",
+        "fees": "历史挂牌佣金为月租金10%",
+        "source_title": "安居客：清华东路甲7号院主卧",
+        "source_url": "https://bj.zu.anjuke.com/fangyuan/3510856202345482/",
+        "source_date": "2024-05-09",
+        "observed_at": "2026-10-19",
+        "evidence_type": "search_extract",
+        "status": "历史代理房源，仅供价格参考",
+        "historical": true
+      }
+    ],
+    "notes": [
+      "房源页明确标注经纪人历史代理，当前空房及报价未确认"
+    ],
+    "missing_fields": [
+      "卫浴是否独立",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0K2ZC2ESI": {
+    "checked_at": "2026-10-19",
+    "status": "院内青年人才住宿，对外出租资格待确认",
+    "listings": [],
+    "notes": [
+      "2024年启用报道面向中国农机院青年员工，公开资料尚未披露对社会出租的申请入口和报价"
+    ],
+    "missing_fields": [
+      "可核对的在租房型",
+      "当前月租或包月报价",
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A85E7A": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "北沙滩4号院",
+        "area_sqm": 61.0,
+        "price_month": 6650,
+        "orientation": "东西",
+        "floor": "中楼层/6层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "〖北沙滩4号院租房信息_北京北沙滩4号院房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/244400/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "北沙滩4号院",
+        "area_sqm": 65.0,
+        "price_month": 6000,
+        "orientation": "东西",
+        "floor": "高楼层/6层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "北京北沙滩租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss368/f1s2t102u1/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "北沙滩4号院",
+        "area_sqm": 59.81,
+        "price_month": 6650,
+        "orientation": "东西",
+        "floor": "低楼层/6层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "北京北沙滩租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss368/d2o8t102/",
+        "source_date": "2026-09-05",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A7ZORE": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "二里庄北里",
+        "area_sqm": 65.0,
+        "price_month": 5900,
+        "orientation": "南北",
+        "floor": "中楼层/6层 · 简装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "租期及押付方式需按房源确认",
+        "source_title": "北京北沙滩租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss368/f5t4097u1/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "二里庄北里",
+        "area_sqm": 57.8,
+        "price_month": 6500,
+        "orientation": "南北",
+        "floor": "低楼层/6层 · 简装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "北京北沙滩二室租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss368/o5r2u1n2/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "二里庄北里",
+        "area_sqm": 60.2,
+        "price_month": 6600,
+        "orientation": "南北",
+        "floor": "低楼层/6层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "北京北沙滩租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss368/d2o3t102n2/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0FFG8URUR": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "清华东路9号院",
+        "area_sqm": 82.0,
+        "price_month": 9500,
+        "orientation": "南北",
+        "floor": "低楼层/28层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "〖清华东路9号院租房信息_北京清华东路9号院房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/441056/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "清华东路9号院",
+        "area_sqm": 100.0,
+        "price_month": 10800,
+        "orientation": "南",
+        "floor": "低楼层/27层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "房租月付",
+        "source_title": "〖清华东路9号院租房信息_北京清华东路9号院房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/441056/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "清华东路9号院",
+        "area_sqm": 81.54,
+        "price_month": 11000,
+        "orientation": "南",
+        "floor": "高楼层/28层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "〖清华东路9号院租房信息_北京清华东路9号院房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/441056/",
+        "source_date": "2026-10-16",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0IGTHH423": {
+    "checked_at": "2026-10-19",
+    "status": "门店设施与政策已核对，房型面积及包月待补",
+    "listings": [],
+    "notes": [
+      "携程展示54间客房、免费公共停车、24小时前台，入住14:00后、退房12:00前，不提供早餐，独立客房具体面积及包月价未在公开文本中展示"
+    ],
+    "missing_fields": [
+      "可核对的在租房型",
+      "当前月租或包月报价",
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A7XKGC": {
+    "checked_at": "2026-10-19",
+    "status": "公开房型或报价仍有缺项",
+    "listings": [],
+    "notes": [
+      "小区档案展示约95㎡两居及130–131㎡三居，已检索到的公开文本以小区及出售资料为主，尚未匹配可靠的同院租房报价"
+    ],
+    "missing_fields": [
+      "可核对的在租房型",
+      "当前月租或包月报价",
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0FFFAHBID": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "title": "三居整租公开样本",
+        "mode": "整租",
+        "layout": "3室1厅",
+        "area_sqm": 92,
+        "price_month": 8830,
+        "bathroom": "来源未说明独立卫浴",
+        "kitchen": "来源未说明厨房使用方式",
+        "terms": "有电梯、集中供暖，租期及押付待确认",
+        "fees": "水电、服务费及其他费用未披露",
+        "source_title": "幸福里：双泉堡甲一号院",
+        "source_url": "https://fangchan.snssdk.com/xiaoqu/bj-6587274133413822733.html?from=share",
+        "source_date": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "search_extract",
+        "status": "公开页面样本，库存需确认"
+      }
+    ],
+    "notes": [],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0K1KUE6KH": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "title": "35㎡一居月租样本",
+        "mode": "公寓整租",
+        "layout": "1居",
+        "area_sqm": 35,
+        "price_month": 5500,
+        "bathroom": "来源未说明独立卫浴",
+        "kitchen": "来源未说明厨房使用方式",
+        "terms": "月付，押金5500元",
+        "fees": "其余费用未披露",
+        "source_title": "iStay：住总寓共享际一居",
+        "source_url": "https://istay.cn/zh/bj/product/ce0f8ba3-f60f-47ae-8399-77e9ee34f3db",
+        "source_date": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "search_extract",
+        "status": "公开页面样本，库存需确认",
+        "private_room": true
+      },
+      {
+        "title": "40㎡一居月租样本",
+        "mode": "公寓整租",
+        "layout": "1居",
+        "area_sqm": 40,
+        "price_month": 6900,
+        "bathroom": "来源未说明独立卫浴",
+        "kitchen": "来源未说明厨房使用方式",
+        "terms": "月付，押金6900元",
+        "fees": "其余费用未披露",
+        "source_title": "iStay：住总寓共享际一居",
+        "source_url": "https://istay.cn/zh/bj/product/9e67e251-f162-4731-a116-bc00c4ad8811",
+        "source_date": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "search_extract",
+        "status": "公开页面样本，库存需确认",
+        "private_room": true
+      },
+      {
+        "title": "40㎡一居月租样本",
+        "mode": "公寓整租",
+        "layout": "1居",
+        "area_sqm": 40,
+        "price_month": 7200,
+        "bathroom": "来源未说明独立卫浴",
+        "kitchen": "来源未说明厨房使用方式",
+        "terms": "月付，押金7200元",
+        "fees": "其余费用未披露",
+        "source_title": "iStay：住总寓共享际一居",
+        "source_url": "https://istay.cn/zh/bj/product/0eae0cc5-d45c-497b-9222-8341704c0f86",
+        "source_date": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "search_extract",
+        "status": "公开页面样本，库存需确认",
+        "private_room": true
+      }
+    ],
+    "notes": [
+      "月租样本来自第三方挂牌；携程同址住宿页展示免费公共厨房、洗衣房，短住押金政策与月租渠道分别核对"
+    ],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0KRM7WOJQ": {
+    "checked_at": "2026-10-19",
+    "status": "已核对公开房型，月租待核",
+    "listings": [
+      {
+        "title": "榻榻米单人间",
+        "mode": "酒店独立客房",
+        "layout": "1张单人床 / 2层 / 有窗",
+        "area_sqm": 10,
+        "price_month": null,
+        "bathroom": "私人浴室",
+        "kitchen": "来源未说明厨房使用方式",
+        "terms": "按日预订，包月待确认",
+        "fees": "水电、服务费及其他费用未披露",
+        "source_title": "Trip.com：WOWOTEL窝窝房型",
+        "source_url": "https://sg.trip.com/hotels/beijing-hotel-detail-121689370/wowotel/",
+        "source_date": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "search_extract",
+        "status": "公开页面样本，库存需确认",
+        "private_bath": true,
+        "private_room": true
+      },
+      {
+        "title": "精致大床房",
+        "mode": "酒店独立客房",
+        "layout": "1张双人床 / 有窗",
+        "area_sqm": null,
+        "price_month": null,
+        "bathroom": "私人浴室",
+        "kitchen": "来源未说明厨房使用方式",
+        "terms": "按日预订，包月待确认",
+        "fees": "水电、服务费及其他费用未披露",
+        "source_title": "Trip.com：WOWOTEL窝窝房型",
+        "source_url": "https://sg.trip.com/hotels/beijing-hotel-detail-121689370/wowotel/",
+        "source_date": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "search_extract",
+        "status": "公开页面样本，库存需确认",
+        "area_display": "10–12㎡",
+        "private_bath": true,
+        "private_room": true
+      }
+    ],
+    "notes": [
+      "携程同址页展示洗衣房和干衣机，日租与长住优惠按入住日期另询，未将日价乘30作为包月价"
+    ],
+    "missing_fields": [
+      "有效包月报价",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0FFF5BGGZ": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "整租",
+        "layout": "1室1厅",
+        "community": "北沙滩6号院",
+        "area_sqm": 37.44,
+        "price_month": 5300,
+        "orientation": "南北",
+        "floor": "中楼层/7层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "北京北沙滩租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss368/d2t102t4098y1/",
+        "source_date": "2026-09-25",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A81FG5": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "南沙滩和谐小区",
+        "area_sqm": 53.91,
+        "price_month": 6300,
+        "orientation": "西北",
+        "floor": "高楼层/6层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "北京北沙滩租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss368/d2o8t102/",
+        "source_date": "2026-09-06",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0FFGY4QJA": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "title": "中天国际同栋住宅整租样本",
+        "mode": "整租",
+        "layout": "1室1厅1卫",
+        "area_sqm": 46.9,
+        "price_month": 6200,
+        "bathroom": "整套1卫",
+        "kitchen": "来源未说明厨房使用方式",
+        "terms": "长租，押金6200元",
+        "fees": "发布者称房东直租，具体费用待核",
+        "source_title": "Wellcee：中天国际房东挂牌",
+        "source_url": "https://www.wellcee.com/tw/rent-apartment/1779597915741860",
+        "source_date": "发布者最后登录2026-08-03",
+        "observed_at": "2026-10-19",
+        "evidence_type": "search_extract",
+        "status": "公开页面样本，库存需确认",
+        "private_room": true
+      }
+    ],
+    "notes": [
+      "月租样本属于北沙滩7号院中天国际住宅挂牌，地图POI为酒店式经营点，房号与出租经营主体需分别确认"
+    ],
+    "missing_fields": [
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A8U2UZ": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "整租",
+        "layout": "1室1厅",
+        "community": "冠军城",
+        "area_sqm": 52.0,
+        "price_month": 5900,
+        "orientation": "南",
+        "floor": "高楼层/23层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "〖冠军城租房信息_北京冠军城房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/3509/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "1室1厅",
+        "community": "冠军城",
+        "area_sqm": 63.24,
+        "price_month": 6900,
+        "orientation": "西",
+        "floor": "高楼层/21层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖、年租",
+        "source_title": "北京北沙滩5000-8000元一室租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss368/f2p5r1/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "冠军城",
+        "area_sqm": 71.18,
+        "price_month": 7600,
+        "orientation": "西北",
+        "floor": "高楼层/21层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "北京北沙滩70-90㎡租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss368/a3/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A84JH4": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "二里庄小区",
+        "area_sqm": 55.7,
+        "price_month": 6500,
+        "orientation": "东西",
+        "floor": "低楼层/6层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "租期及押付方式需按房源确认",
+        "source_title": "北京六道口租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss367/c1n3/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "二里庄小区",
+        "area_sqm": 62.0,
+        "price_month": 6500,
+        "orientation": "南北",
+        "floor": "中楼层/6层 · 简装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "租期及押付方式需按房源确认",
+        "source_title": "北京北沙滩二室租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss368/f5r2u1z2/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "二里庄小区",
+        "area_sqm": 55.7,
+        "price_month": 6700,
+        "orientation": "东西",
+        "floor": "高楼层/6层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖、年租、拎包入住",
+        "source_title": "北京北沙滩租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss368/d2f1t102t4098/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0FFIBY7TJ": {
+    "checked_at": "2026-10-19",
+    "status": "公开房型或报价仍有缺项",
+    "listings": [],
+    "notes": [
+      "该点位位于北沙滩7号院周边的公寓民宿集群，公开搜索尚未取得可核对的同店房型页与包月合同信息，同栋其他经营者的租金保留在其对应点位"
+    ],
+    "missing_fields": [
+      "可核对的在租房型",
+      "当前月租或包月报价",
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0MBFD61XX": {
+    "checked_at": "2026-10-19",
+    "status": "公开房型或报价仍有缺项",
+    "listings": [],
+    "notes": [
+      "该点位位于北沙滩7号院周边的公寓民宿集群，公开搜索尚未取得可核对的同店房型页与包月合同信息，同栋其他经营者的租金保留在其对应点位"
+    ],
+    "missing_fields": [
+      "可核对的在租房型",
+      "当前月租或包月报价",
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0MDV5N59C": {
+    "checked_at": "2026-10-19",
+    "status": "已核对公开房型，月租待核",
+    "listings": [
+      {
+        "title": "大床房",
+        "mode": "酒店独立客房",
+        "layout": "1张大床 / 有窗，也有内窗房型",
+        "area_sqm": null,
+        "price_month": null,
+        "bathroom": "私人浴室",
+        "kitchen": "来源未说明厨房使用方式",
+        "terms": "按日预订，包月待确认",
+        "fees": "水电、服务费及其他费用未披露",
+        "source_title": "Trip.com：北沙滩汉庭房型",
+        "source_url": "https://hk.trip.com/hotels/beijing-hotel-detail-135259317/hanting-hotel-beijing-university-of-science-and-technology-beishatan-metro-station/",
+        "source_date": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "search_extract",
+        "status": "公开页面样本，库存需确认",
+        "area_display": "14–15㎡",
+        "private_bath": true,
+        "private_room": true
+      },
+      {
+        "title": "高级大床房 / 双床房",
+        "mode": "酒店独立客房",
+        "layout": "有窗",
+        "area_sqm": null,
+        "price_month": null,
+        "bathroom": "私人浴室",
+        "kitchen": "来源未说明厨房使用方式",
+        "terms": "按日预订，包月待确认",
+        "fees": "水电、服务费及其他费用未披露",
+        "source_title": "Trip.com：北沙滩汉庭房型",
+        "source_url": "https://hk.trip.com/hotels/beijing-hotel-detail-135259317/hanting-hotel-beijing-university-of-science-and-technology-beishatan-metro-station/",
+        "source_date": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "search_extract",
+        "status": "公开页面样本，库存需确认",
+        "area_display": "高级大床16–17㎡ / 双床18–19㎡",
+        "private_bath": true,
+        "private_room": true
+      }
+    ],
+    "notes": [
+      "本点位是志新西路10号的北沙滩门店，华住搜索另有志新路乙16号科技大学店，已按地址区分"
+    ],
+    "missing_fields": [
+      "有效包月报价",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0MDO1WXXM": {
+    "checked_at": "2026-10-19",
+    "status": "公开房型或报价仍有缺项",
+    "listings": [],
+    "notes": [
+      "该点位位于北沙滩7号院周边的公寓民宿集群，公开搜索尚未取得可核对的同店房型页与包月合同信息，同栋其他经营者的租金保留在其对应点位"
+    ],
+    "missing_fields": [
+      "可核对的在租房型",
+      "当前月租或包月报价",
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0MRHCEF4H": {
+    "checked_at": "2026-10-19",
+    "status": "公开房型或报价仍有缺项",
+    "listings": [],
+    "notes": [
+      "按沐萃公寓名称与林萃路地址检索，尚未找到稳定可核对的租赁房型页，当前保留高德位置及通勤信息"
+    ],
+    "missing_fields": [
+      "可核对的在租房型",
+      "当前月租或包月报价",
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0FFK4CH8M": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "石油大院",
+        "area_sqm": 60.2,
+        "price_month": 6700,
+        "orientation": "西北",
+        "floor": "低楼层/16层 · 简装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "租期及押付方式需按房源确认",
+        "source_title": "北京六道口租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss5862/u1z2/",
+        "source_date": "昨天",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "石油大院",
+        "area_sqm": 64.6,
+        "price_month": 6800,
+        "orientation": "南",
+        "floor": "中楼层/6层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "北京北沙滩租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss368/d2t102n2/",
+        "source_date": "2026-09-02",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "1室1厅",
+        "community": "石油大院",
+        "area_sqm": 42.8,
+        "price_month": 6980,
+        "orientation": "南",
+        "floor": "高楼层/15层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "租期及押付方式需按房源确认",
+        "source_title": "北京北沙滩一室租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss368/o3r1t1n2/",
+        "source_date": "2026-09-20",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0L2NHI25X": {
+    "checked_at": "2026-10-19",
+    "status": "公开房型或报价仍有缺项",
+    "listings": [],
+    "notes": [
+      "位置在学院路20号院，是否属于院内配套或对外经营住宿尚未确认，公开搜索未匹配同址租赁条款"
+    ],
+    "missing_fields": [
+      "可核对的在租房型",
+      "当前月租或包月报价",
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A84BTK": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "整租",
+        "layout": "3室2厅",
+        "community": "学院路18号院",
+        "area_sqm": 110.57,
+        "price_month": 13800,
+        "orientation": "南北",
+        "floor": "高楼层/12层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "北京六道口租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss367/f5u1n3/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [
+      "房源平台使用学院路18号院，与高德石科院生活区地址对应，仍需核对具体楼栋入口"
+    ],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0H2NHE1PB": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "title": "春晖独立一居",
+        "mode": "公寓整租",
+        "layout": "1室1厅1厨1卫",
+        "area_sqm": 24,
+        "price_month": 5300,
+        "bathroom": "独立卫生间",
+        "kitchen": "独立厨房",
+        "terms": "可短租1–11个月或长租一年",
+        "fees": "服务费另计，押金及水电详询管家",
+        "source_title": "自如官方：学院路春晖",
+        "source_url": "https://www.ziroomapartment.com/houseType/getDetail/8af5c12f60accc160160e9acc9eb3de0.html",
+        "source_date": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "page",
+        "status": "官网展示可签约及待入住房间，库存动态",
+        "price_display": "5300–5700元/月",
+        "private_bath": true,
+        "private_room": true
+      }
+    ],
+    "notes": [
+      "官网展示不同房号的可入住日期，包括2026-10-19、10-25及11-02，报价按房号与签约时长变化"
+    ],
+    "missing_fields": [
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0FFFW696C": {
+    "checked_at": "2026-10-19",
+    "status": "公开房型或报价仍有缺项",
+    "listings": [],
+    "notes": [
+      "平台档案使用安翔北里泛名并提及8号院，展示65㎡两居户型，当前租赁样本仍需锁定8号院的具体楼栋"
+    ],
+    "missing_fields": [
+      "可核对的在租房型",
+      "当前月租或包月报价",
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A88EG6": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "合租",
+        "layout": "4室1厅",
+        "community": "志新北里",
+        "area_sqm": 11.0,
+        "price_month": 2500,
+        "orientation": "北",
+        "floor": "低楼层/6层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "租期及押付方式需按房源确认",
+        "source_title": "北京六道口租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss5862/c1f4/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "志新北里",
+        "area_sqm": 63.0,
+        "price_month": 6500,
+        "orientation": "南北",
+        "floor": "高楼层/5层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "北京六道口租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss5862/d2t102/",
+        "source_date": "2026-08-30",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "志新北里",
+        "area_sqm": 55.83,
+        "price_month": 6600,
+        "orientation": "南",
+        "floor": "高楼层/6层 · 简装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "租期及押付方式需按房源确认",
+        "source_title": "北京六道口租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss5862/u1v2/",
+        "source_date": "2026-08-25",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0JG49EVTZ": {
+    "checked_at": "2026-10-19",
+    "status": "公开房型或报价仍有缺项",
+    "listings": [],
+    "notes": [
+      "高德名称带学清路分店，地址指向金码大厦单元，公开资料尚未匹配可核对的经营者房型页及包月价格"
+    ],
+    "missing_fields": [
+      "可核对的在租房型",
+      "当前月租或包月报价",
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A7FH6T": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "富润家园",
+        "area_sqm": 84.62,
+        "price_month": 9800,
+        "orientation": "西南",
+        "floor": "低楼层/18层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "〖富润家园租房信息_北京富润家园房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/3107/",
+        "source_date": "2026-08-26",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "3室1厅",
+        "community": "富润家园",
+        "area_sqm": 131.06,
+        "price_month": 12500,
+        "orientation": "南",
+        "floor": "中楼层/27层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "房租月付",
+        "source_title": "〖富润家园租房信息_北京富润家园房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/3107/",
+        "source_date": "2026-08-26",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "1室1厅",
+        "community": "富润家园",
+        "area_sqm": 54.0,
+        "price_month": 6200,
+        "orientation": "西南",
+        "floor": "低楼层/18层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "北京北沙滩5000-8000元一室租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss368/f2p5r1/",
+        "source_date": "2026-09-15",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0FFKNMPKW": {
+    "checked_at": "2026-10-19",
+    "status": "仅取得历史租赁样本",
+    "listings": [
+      {
+        "title": "六道口门店历史开间",
+        "mode": "公寓整租",
+        "layout": "开间",
+        "area_sqm": 20,
+        "price_month": 5100,
+        "bathroom": "独门独户独卫",
+        "kitchen": "公共厨房",
+        "terms": "房东直租，起租期与押付方式未披露",
+        "fees": "历史页列供暖10元/天、垃圾清运2元/天、公区能源1.75元/天，退房清洁维保300元/次（干净不收），免中介费",
+        "source_title": "贝壳：城家六道口公寓历史页",
+        "source_url": "https://bj.zu.ke.com/apartment/45335.html",
+        "source_date": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "search_extract",
+        "status": "历史缓存样本，当前报价与优惠需重新核实",
+        "historical": true,
+        "private_bath": true,
+        "private_room": true
+      }
+    ],
+    "notes": [
+      "页面缓存较旧，出现限时免租及毕业季优惠，当前活动与房态需核实，历史费用拆项已保留"
+    ],
+    "missing_fields": [
+      "最低起租时长及押付",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0FFF2GV9V": {
+    "checked_at": "2026-10-19",
+    "status": "公开房型或报价仍有缺项",
+    "listings": [],
+    "notes": [
+      "林萃西里与澳林春天各期在平台上的命名有交叉，目前未取得可确认属于此采样点的租赁报价，可同时查看地图中澳林春天带明确期数的样本"
+    ],
+    "missing_fields": [
+      "可核对的在租房型",
+      "当前月租或包月报价",
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0K2L5I9NA": {
+    "checked_at": "2026-10-19",
+    "status": "公开房型或报价仍有缺项",
+    "listings": [],
+    "notes": [
+      "官网项目入口及志新东路5号地址已匹配，项目独立页正文未提供可提取的房型和价目，品牌古城项目的20㎡房型及历史租金未用于此店报价"
+    ],
+    "missing_fields": [
+      "可核对的在租房型",
+      "当前月租或包月报价",
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0L1L5F2H6": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "澳林春天一期",
+        "area_sqm": 57.46,
+        "price_month": 5500,
+        "orientation": "南北",
+        "floor": "低楼层/6层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "租期及押付方式需按房源确认",
+        "source_title": "北京北沙滩租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss368/f5t4097u1/",
+        "source_date": "2026-09-19",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "澳林春天一期",
+        "area_sqm": 53.77,
+        "price_month": 5700,
+        "orientation": "南北",
+        "floor": "高楼层/6层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电",
+        "source_title": "北京北沙滩租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss368/d2t102t4098y1/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "澳林春天一期",
+        "area_sqm": 76.16,
+        "price_month": 6200,
+        "orientation": "南北",
+        "floor": "高楼层/6层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、明卫",
+        "source_title": "北京北沙滩70-90㎡租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss368/a3/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "title": "三期南向独卫单间",
+        "mode": "合租",
+        "layout": "整套4室1厅4卫 / 单间1室1卫",
+        "area_sqm": 25,
+        "price_month": 4200,
+        "bathroom": "独立卫生间",
+        "kitchen": "来源未说明厨房使用方式",
+        "terms": "押一付三",
+        "fees": "物业费和取暖费含在租金内，服务费0元，中介费一个月租金",
+        "source_title": "58同城：澳林春天三期独卫单间",
+        "source_url": "https://bj.58.com/hezu/88734384907739x.shtml",
+        "source_date": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "search_extract",
+        "status": "公开页面样本，库存需确认",
+        "private_bath": true,
+        "private_room": true
+      }
+    ],
+    "notes": [
+      "样本分别标明澳林春天一期、三期或六期，路线采用当前澳林春天采样点，选定期数与楼栋后应复测门口路线"
+    ],
+    "missing_fields": [
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A9LW64": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "title": "大户型整租样本",
+        "mode": "整租",
+        "layout": "6室2厅5卫",
+        "area_sqm": 462.98,
+        "price_month": 60000,
+        "bathroom": "来源未说明独立卫浴",
+        "kitchen": "来源未说明厨房使用方式",
+        "terms": "押一付六，有电梯、集中供暖",
+        "fees": "水电、服务费及其他费用未披露",
+        "source_title": "幸福里：国奥村六居整租",
+        "source_url": "https://m.xflapp.com/zufang/bj-7574641869330595883.html",
+        "source_date": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "search_extract",
+        "status": "公开页面样本，库存需确认"
+      }
+    ],
+    "notes": [
+      "我爱我家小区页另展示18000–28000元/月的整租统计区间，户型面积较大，具体房号及当前库存需核对"
+    ],
+    "missing_fields": [
+      "卫浴是否独立",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A87K2C": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "整租",
+        "layout": "1室1厅",
+        "community": "志新村小区",
+        "area_sqm": 54.6,
+        "price_month": 5600,
+        "orientation": "南",
+        "floor": "高楼层/18层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "北京北沙滩租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss368/c3n4/",
+        "source_date": "昨天",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "志新村小区",
+        "area_sqm": 59.6,
+        "price_month": 5890,
+        "orientation": "南北",
+        "floor": "高楼层/6层 · 简装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "租期及押付方式需按房源确认",
+        "source_title": "北京北沙滩二室租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss368/f5r2u1z2/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "志新村小区",
+        "area_sqm": 62.4,
+        "price_month": 7000,
+        "orientation": "东西",
+        "floor": "高楼层/6层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖、年租、拎包入住",
+        "source_title": "北京北沙滩租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss368/d2f1t102t4098/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A8UURV": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "整租",
+        "layout": "1室0厅",
+        "community": "风林绿洲",
+        "area_sqm": 26.19,
+        "price_month": 4400,
+        "orientation": "南北",
+        "floor": "低楼层/11层 · 简装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电",
+        "source_title": "〖风林绿洲租房信息_北京风林绿洲房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/1861/",
+        "source_date": "2026-08-30",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A81I4Z": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "合租",
+        "layout": "4室1厅",
+        "community": "学知园",
+        "area_sqm": 20.0,
+        "price_month": 2600,
+        "orientation": "西",
+        "floor": "高楼层/18层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "租期及押付方式需按房源确认",
+        "source_title": "北京学知园租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss5861/d1/",
+        "source_date": "2026-09-05",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "1室1厅",
+        "community": "学知园",
+        "area_sqm": 64.64,
+        "price_month": 5510,
+        "orientation": "东南",
+        "floor": "中楼层/18层 · 简装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "房租月付",
+        "source_title": "北京学知园二室租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss5861/c2r1r2/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0JUAXZQI4": {
+    "checked_at": "2026-10-19",
+    "status": "公开房型或报价仍有缺项",
+    "listings": [],
+    "notes": [
+      "已按六道口门店名与北京地址检索，未匹配到可核对的门店房型页；搜索中大量同名结果位于苏州，保留北京高德点位供进一步核实"
+    ],
+    "missing_fields": [
+      "可核对的在租房型",
+      "当前月租或包月报价",
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A844IN": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "静淑苑",
+        "area_sqm": 68.3,
+        "price_month": 7800,
+        "orientation": "东西",
+        "floor": "中楼层/7层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "北京学知园租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss5861/t4098y4/",
+        "source_date": "2026-10-04",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "静淑苑",
+        "area_sqm": 66.5,
+        "price_month": 7900,
+        "orientation": "南北",
+        "floor": "中楼层/6层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "租期及押付方式需按房源确认",
+        "source_title": "北京学知园租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss5861/c1c2f2f4u1/",
+        "source_date": "2026-10-11",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "静淑苑",
+        "area_sqm": 67.4,
+        "price_month": 8000,
+        "orientation": "东西",
+        "floor": "低楼层/7层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖、拎包入住",
+        "source_title": "北京六道口租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss367/c1n3/",
+        "source_date": "2026-08-14",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A9PSHI": {
+    "checked_at": "2026-10-19",
+    "status": "已核对公开房型，月租待核",
+    "listings": [
+      {
+        "title": "安翔里直租挂牌，信息存在冲突",
+        "mode": "方式待核",
+        "layout": "2室1厅1卫",
+        "area_sqm": null,
+        "price_month": 3400,
+        "bathroom": "来源未说明独立卫浴",
+        "kitchen": "来源未说明厨房使用方式",
+        "terms": "押一付三，可谈长租",
+        "fees": "发布者称无中介费、租金含物业取暖及宽带",
+        "source_title": "Wellcee：安翔里直租样本",
+        "source_url": "https://www.wellcee.com/tw/rent-apartment/1778730425208617",
+        "source_date": "发布者最后登录2026-09-22",
+        "observed_at": "2026-10-19",
+        "evidence_type": "page",
+        "status": "面积与出租方式存在冲突，报价需核实",
+        "area_display": "顶部65㎡ / 正文50㎡，房间面积未确认"
+      }
+    ],
+    "notes": [
+      "平台标题标注合租，正文描述整套两居，顶部面积65㎡、正文50㎡，此样本保留为核实线索，未纳入市场价格概览"
+    ],
+    "missing_fields": [
+      "有效包月报价",
+      "卫浴是否独立",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0FFFTR33K": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "科学园南里三区",
+        "area_sqm": 58.76,
+        "price_month": 6500,
+        "orientation": "南北",
+        "floor": "高楼层/6层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "北京北沙滩租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss368/c3n4/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "科学园南里三区",
+        "area_sqm": 58.75,
+        "price_month": 6700,
+        "orientation": "南北",
+        "floor": "高楼层/6层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖、年租、拎包入住",
+        "source_title": "北京北沙滩租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss368/d2o3t102n2/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "科学园南里四区",
+        "area_sqm": 60.0,
+        "price_month": 6800,
+        "orientation": "南北",
+        "floor": "中楼层/7层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "北京北沙滩租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss368/d2o8t102t4098/",
+        "source_date": "2026-09-22",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [
+      "科学园南里样本保留三区、四区等分区名，路线按采样POI测量，具体楼栋需要复测"
+    ],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A8U2UX": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "整租",
+        "layout": "2室2厅",
+        "community": "健翔园",
+        "area_sqm": 81.59,
+        "price_month": 8500,
+        "orientation": "东南",
+        "floor": "低楼层/24层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "北京北沙滩租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss368/f1s2t102u1/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室2厅",
+        "community": "健翔园",
+        "area_sqm": 96.65,
+        "price_month": 8500,
+        "orientation": "东北",
+        "floor": "中楼层/24层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "北京北沙滩租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss368/f1s2t102u1/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0KR75JEO0": {
+    "checked_at": "2026-10-19",
+    "status": "已核对公开房型，月租待核",
+    "listings": [
+      {
+        "title": "舒惠 / 优选独立单人间",
+        "mode": "青旅独立单人间",
+        "layout": "1张单人床 / 2层",
+        "area_sqm": 4.5,
+        "price_month": null,
+        "bathroom": "公共卫浴",
+        "kitchen": "来源未说明厨房使用方式",
+        "terms": "按日预订，包月待确认",
+        "fees": "水电、服务费及其他费用未披露",
+        "source_title": "Trip.com：wohkoon学清路房型",
+        "source_url": "https://hk.trip.com/hotels/beijing-hotel-detail-121918742/wohkoon-zhexingsun-hotel/",
+        "source_date": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "search_extract",
+        "status": "公开页面样本，库存需确认",
+        "private_room": true
+      },
+      {
+        "title": "男女二人或三人房床位",
+        "mode": "青旅床位",
+        "layout": "单个床位",
+        "area_sqm": null,
+        "price_month": null,
+        "bathroom": "公共卫浴",
+        "kitchen": "来源未说明厨房使用方式",
+        "terms": "按日预订，包月待确认",
+        "fees": "水电、服务费及其他费用未披露",
+        "source_title": "Trip.com：wohkoon学清路房型",
+        "source_url": "https://hk.trip.com/hotels/beijing-hotel-detail-121918742/wohkoon-zhexingsun-hotel/",
+        "source_date": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "search_extract",
+        "status": "公开页面样本，库存需确认",
+        "area_display": "多人房总面积约8–18㎡，按房型区分"
+      }
+    ],
+    "notes": [
+      "预订页另展示洗衣房、干衣机和电梯，独立单人间与多人间床位分开记录"
+    ],
+    "missing_fields": [
+      "有效包月报价",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0KUF9YOCW": {
+    "checked_at": "2026-10-19",
+    "status": "公开房型或报价仍有缺项",
+    "listings": [],
+    "notes": [
+      "当前仅取得学清路附近高德点位与公开电话，未匹配同址预订房型页，需先确认经营主体及是否提供独立单人间"
+    ],
+    "missing_fields": [
+      "可核对的在租房型",
+      "当前月租或包月报价",
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A88E11": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "title": "文成杰座A座南向三居",
+        "mode": "整租",
+        "layout": "3居双卫",
+        "area_sqm": 125.84,
+        "price_month": 11000,
+        "bathroom": "整套两卫",
+        "kitchen": "来源未说明厨房使用方式",
+        "terms": "页面标注无押金付一，当前合同条件待核",
+        "fees": "服务费及水电标准未披露",
+        "source_title": "58同城：文成杰座A座三居",
+        "source_url": "https://bj.58.com/zufang/88669210292315x.shtml",
+        "source_date": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "search_extract",
+        "status": "公开页面样本，库存需确认"
+      }
+    ],
+    "notes": [],
+    "missing_fields": [
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A844QR": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "整租",
+        "layout": "2室2厅",
+        "community": "清林苑",
+        "area_sqm": 136.82,
+        "price_month": 12300,
+        "orientation": "南",
+        "floor": "中楼层/8层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖、拎包入住",
+        "source_title": "北京学知园租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss5861/d1z3n3/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "3室2厅",
+        "community": "清林苑",
+        "area_sqm": 157.38,
+        "price_month": 14000,
+        "orientation": "南北",
+        "floor": "中楼层/7层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "北京林萃桥租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss256/f5t1/",
+        "source_date": "2026-09-04",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "3室2厅",
+        "community": "清林苑",
+        "area_sqm": 157.38,
+        "price_month": 14800,
+        "orientation": "南北",
+        "floor": "中楼层/7层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "北京学知园租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss5861/c2g3/",
+        "source_date": "2026-09-04",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A844H6": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "清枫华景园",
+        "area_sqm": 64.39,
+        "price_month": 7000,
+        "orientation": "东南",
+        "floor": "中楼层/15层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "北京学知园租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss5861/d1/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "title": "清枫华景园次卧转租",
+        "mode": "合租",
+        "layout": "合租次卧",
+        "area_sqm": null,
+        "price_month": 2400,
+        "bathroom": "来源未说明独立卫浴",
+        "kitchen": "来源未说明厨房使用方式",
+        "terms": "租期和押付待确认",
+        "fees": "页面另列服务费433元/月",
+        "source_title": "Wellcee：清枫华景园次卧",
+        "source_url": "https://www.wellcee.com/tw/rent-apartment/1779462232760185",
+        "source_date": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "search_extract",
+        "status": "公开页面样本，库存需确认"
+      }
+    ],
+    "notes": [],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A844P5": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "合租",
+        "layout": "3室1厅",
+        "community": "逸成东苑",
+        "area_sqm": 20.0,
+        "price_month": 3279,
+        "orientation": "西",
+        "floor": "中楼层/14层 · 简装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "租期及押付方式需按房源确认",
+        "source_title": "〖逸成东苑租房信息_北京逸成东苑房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/12874/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "逸成东苑",
+        "area_sqm": 75.19,
+        "price_month": 8400,
+        "orientation": "东南",
+        "floor": "低楼层/22层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "租期及押付方式需按房源确认",
+        "source_title": "〖逸成东苑租房信息_北京逸成东苑房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/12874/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "逸成东苑",
+        "area_sqm": 65.35,
+        "price_month": 7125,
+        "orientation": "东",
+        "floor": "低楼层/10层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "租期及押付方式需按房源确认",
+        "source_title": "北京学知园租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss5861/g3n2/",
+        "source_date": "2026-09-01",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A7OVSB": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "合租",
+        "layout": "3室1厅",
+        "community": "王庄路15号院",
+        "area_sqm": 13.0,
+        "price_month": 2700,
+        "orientation": "北",
+        "floor": "低楼层/6层 · 简装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "租期及押付方式需按房源确认",
+        "source_title": "北京六道口租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss5862/c1f4/",
+        "source_date": "2026-09-03",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "东王庄小区",
+        "area_sqm": 61.72,
+        "price_month": 6600,
+        "orientation": "东西",
+        "floor": "高楼层/6层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "房租月付",
+        "source_title": "〖东王庄小区租房信息_北京东王庄小区房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/2504/",
+        "source_date": "2026-10-12",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "东王庄小区",
+        "area_sqm": 57.0,
+        "price_month": 7200,
+        "orientation": "南北",
+        "floor": "高楼层/6层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "房租月付",
+        "source_title": "〖东王庄小区租房信息_北京东王庄小区房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/2504/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A9NPC3": {
+    "checked_at": "2026-10-19",
+    "status": "公开房型或报价仍有缺项",
+    "listings": [],
+    "notes": [
+      "公开检索暂未取得可与该高德点位、院号一致核对的租赁详情页，保留位置、通勤和检索状态供选址参考"
+    ],
+    "missing_fields": [
+      "可核对的在租房型",
+      "当前月租或包月报价",
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000AA4HID": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "合租",
+        "layout": "3室1厅",
+        "community": "八家嘉园",
+        "area_sqm": 12.0,
+        "price_month": 2790,
+        "orientation": "北",
+        "floor": "高楼层/27层 · 简装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "租期及押付方式需按房源确认",
+        "source_title": "〖八家嘉园租房信息_北京八家嘉园房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/232460/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "合租",
+        "layout": "3室1厅",
+        "community": "八家嘉园",
+        "area_sqm": 22.0,
+        "price_month": 3500,
+        "orientation": "南",
+        "floor": "低楼层/27层 · 简装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "租期及押付方式需按房源确认",
+        "source_title": "〖八家嘉园租房信息_北京八家嘉园房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/232460/p4/",
+        "source_date": "2026-08-02",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "合租",
+        "layout": "3室1厅",
+        "community": "八家嘉园",
+        "area_sqm": 18.0,
+        "price_month": 3500,
+        "orientation": "南",
+        "floor": "低楼层/26层 · 简装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "租期及押付方式需按房源确认",
+        "source_title": "〖八家嘉园租房信息_北京八家嘉园房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/232460/p4/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0FFFDS0Q8": {
+    "checked_at": "2026-10-19",
+    "status": "公开房型或报价仍有缺项",
+    "listings": [],
+    "notes": [
+      "公开检索暂未取得可与该高德点位、院号一致核对的租赁详情页，保留位置、通勤和检索状态供选址参考"
+    ],
+    "missing_fields": [
+      "可核对的在租房型",
+      "当前月租或包月报价",
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0HAJA6VZZ": {
+    "checked_at": "2026-10-19",
+    "status": "已核对公开房型，月租待核",
+    "listings": [
+      {
+        "title": "男女多人房单个床位",
+        "mode": "青旅床位",
+        "layout": "二人、四人、六人、八人房的单个床位",
+        "area_sqm": null,
+        "price_month": null,
+        "bathroom": "按房型区分，单人独卫未确认",
+        "kitchen": "来源未说明厨房使用方式",
+        "terms": "按日预订，包月待确认",
+        "fees": "水电、服务费及其他费用未披露",
+        "source_title": "Trip.com：目田五道口房型",
+        "source_url": "https://tw.trip.com/hotels/beijing-hotel-detail-75220536/mutian-inn/",
+        "source_date": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "search_extract",
+        "status": "公开页面样本，库存需确认",
+        "area_display": "多人房总面积依房型约8–50㎡，并非单人使用面积"
+      },
+      {
+        "title": "阳光亲子房 / 豪华双床房",
+        "mode": "酒店独立客房",
+        "layout": "整间客房，床型随房型变化",
+        "area_sqm": null,
+        "price_month": null,
+        "bathroom": "独立卫浴未在对应房型文本中确认",
+        "kitchen": "来源未说明厨房使用方式",
+        "terms": "包月价与具体房态待确认",
+        "fees": "水电、服务费及其他费用未披露",
+        "source_title": "Trip.com：目田五道口房型",
+        "source_url": "https://tw.trip.com/hotels/beijing-hotel-detail-75220536/mutian-inn/",
+        "source_date": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "search_extract",
+        "status": "公开页面样本，库存需确认",
+        "private_room": true
+      }
+    ],
+    "notes": [],
+    "missing_fields": [
+      "有效包月报价",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0FFJLH72K": {
+    "checked_at": "2026-10-19",
+    "status": "公开房型或报价仍有缺项",
+    "listings": [],
+    "notes": [
+      "与目田客栈的高德地址均落在华清嘉园13号楼，公开搜索尚未核定是否独立经营或旧店名，房型与价格需按当前经营主体确认"
+    ],
+    "missing_fields": [
+      "可核对的在租房型",
+      "当前月租或包月报价",
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0HA14DD1N": {
+    "checked_at": "2026-10-19",
+    "status": "公开房型或报价仍有缺项",
+    "listings": [],
+    "notes": [
+      "公开检索暂未取得可与该高德点位、院号一致核对的租赁详情页，保留位置、通勤和检索状态供选址参考"
+    ],
+    "missing_fields": [
+      "可核对的在租房型",
+      "当前月租或包月报价",
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0LRX93OXK": {
+    "checked_at": "2026-10-19",
+    "status": "公开房型或报价仍有缺项",
+    "listings": [],
+    "notes": [
+      "公开搜索可见第三方攻略提及该旅舍，但缺少同店预订详情与适用日期，攻略中的床位日价未作为有效包月报价"
+    ],
+    "missing_fields": [
+      "可核对的在租房型",
+      "当前月租或包月报价",
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A844YY": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "天创世缘",
+        "area_sqm": 116.47,
+        "price_month": 8800,
+        "orientation": "西南",
+        "floor": "中楼层/19层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖、拎包入住",
+        "source_title": "〖天创世缘租房信息_北京天创世缘房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/359758/",
+        "source_date": "昨天",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "天创世缘",
+        "area_sqm": 133.09,
+        "price_month": 12000,
+        "orientation": "东南",
+        "floor": "低楼层/31层 · 简装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "〖天创世缘租房信息_北京天创世缘房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/359758/",
+        "source_date": "2026-07-31",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "3室1厅",
+        "community": "天创世缘",
+        "area_sqm": 161.0,
+        "price_month": 15200,
+        "orientation": "东南",
+        "floor": "中楼层/31层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖、拎包入住",
+        "source_title": "〖天创世缘租房信息_北京天创世缘房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/359758/",
+        "source_date": "2026-07-25",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A845DY": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "慧忠北里",
+        "area_sqm": 75.06,
+        "price_month": 6700,
+        "orientation": "南",
+        "floor": "高楼层/24层 · 简装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "房租月付",
+        "source_title": "〖慧忠北里租房信息_北京慧忠北里房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/359756/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "1室1厅",
+        "community": "慧忠北里",
+        "area_sqm": 68.69,
+        "price_month": 6800,
+        "orientation": "西",
+        "floor": "高楼层/22层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "〖慧忠北里租房信息_北京慧忠北里房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/359756/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "慧忠北里第一社区",
+        "area_sqm": 82.73,
+        "price_month": 7500,
+        "orientation": "东南",
+        "floor": "中楼层/25层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "〖慧忠北里第一社区租房信息_北京慧忠北里第一社区房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/359757/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [
+      "慧忠北里覆盖不同社区，样本保留第一社区等原始名称，地铁接驳路线需以所租楼栋出入口复测"
+    ],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0L0C7ZMX4": {
+    "checked_at": "2026-10-19",
+    "status": "已核对公开房型，月租待核",
+    "listings": [
+      {
+        "title": "舒适单人间",
+        "mode": "青旅独立单人间",
+        "layout": "有窗 / 单人床",
+        "area_sqm": null,
+        "price_month": null,
+        "bathroom": "公共卫浴",
+        "kitchen": "来源未说明厨房使用方式",
+        "terms": "18–60岁，14:00后入住、12:00前退房，包月待确认",
+        "fees": "OTA政策列无押金，长期住宿条件另核对",
+        "source_title": "Trip.com：嘻雅途安立路房型",
+        "source_url": "https://tw.trip.com/hotels/beijing-hotel-detail-132919568/xiyatu/",
+        "source_date": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "page",
+        "status": "公开页面样本，库存需确认",
+        "area_display": "6–8㎡",
+        "private_room": true
+      },
+      {
+        "title": "嘻雅单人间",
+        "mode": "青旅独立单人间",
+        "layout": "无窗 / 单人床",
+        "area_sqm": null,
+        "price_month": null,
+        "bathroom": "公共卫浴",
+        "kitchen": "来源未说明厨房使用方式",
+        "terms": "18–60岁，14:00后入住、12:00前退房，包月待确认",
+        "fees": "OTA政策列无押金，长期住宿条件另核对",
+        "source_title": "Trip.com：嘻雅途安立路房型",
+        "source_url": "https://tw.trip.com/hotels/beijing-hotel-detail-132919568/xiyatu/",
+        "source_date": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "page",
+        "status": "公开页面样本，库存需确认",
+        "area_display": "5–6㎡",
+        "private_room": true
+      },
+      {
+        "title": "优雅或高级单人间",
+        "mode": "青旅独立单人间",
+        "layout": "低床位或高床位，部分有窗",
+        "area_sqm": null,
+        "price_month": null,
+        "bathroom": "公共卫浴",
+        "kitchen": "来源未说明厨房使用方式",
+        "terms": "18–60岁，14:00后入住、12:00前退房，包月待确认",
+        "fees": "OTA政策列无押金，长期住宿条件另核对",
+        "source_title": "Trip.com：嘻雅途安立路房型",
+        "source_url": "https://tw.trip.com/hotels/beijing-hotel-detail-132919568/xiyatu/",
+        "source_date": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "page",
+        "status": "公开页面样本，库存需确认",
+        "area_display": "5–7㎡",
+        "private_room": true
+      }
+    ],
+    "notes": [
+      "公开页展示免费洗衣间、干衣机、24小时前台，单人房型均为独立空间，公共卫浴条件按具体房型核对"
+    ],
+    "missing_fields": [
+      "有效包月报价",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0J3DXEXH6": {
+    "checked_at": "2026-10-19",
+    "status": "公开房型或报价仍有缺项",
+    "listings": [],
+    "notes": [
+      "地址与高德同址匹配，公开资料尚未披露床位与独立房间的区分，包月条件需向经营者核对"
+    ],
+    "missing_fields": [
+      "可核对的在租房型",
+      "当前月租或包月报价",
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A9PRWT": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "整租",
+        "layout": "1室1厅",
+        "community": "安慧北里安园",
+        "area_sqm": 48.2,
+        "price_month": 5350,
+        "orientation": "南北",
+        "floor": "低楼层/6层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "租期及押付方式需按房源确认",
+        "source_title": "〖安慧北里安园租房信息_北京安慧北里安园房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/12470/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "1室1厅",
+        "community": "安慧北里安园",
+        "area_sqm": 45.59,
+        "price_month": 5500,
+        "orientation": "东北",
+        "floor": "低楼层/6层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "〖安慧北里安园租房信息_北京安慧北里安园房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/12470/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [
+      "房源平台使用安慧北里安园泛名，当前路线采样点位于西区，签约前需确认房源所属楼栋与可用出入口"
+    ],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A84NTX": {
+    "checked_at": "2026-10-19",
+    "status": "公开房型或报价仍有缺项",
+    "listings": [],
+    "notes": [
+      "公开检索暂未取得可与该高德点位、院号一致核对的租赁详情页，保留位置、通勤和检索状态供选址参考"
+    ],
+    "missing_fields": [
+      "可核对的在租房型",
+      "当前月租或包月报价",
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0FFFAJ4WX": {
+    "checked_at": "2026-10-19",
+    "status": "公开房型或报价仍有缺项",
+    "listings": [],
+    "notes": [
+      "公开检索暂未取得可与该高德点位、院号一致核对的租赁详情页，保留位置、通勤和检索状态供选址参考"
+    ],
+    "missing_fields": [
+      "可核对的在租房型",
+      "当前月租或包月报价",
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0JA61FTW2": {
+    "checked_at": "2026-10-19",
+    "status": "公开房型或报价仍有缺项",
+    "listings": [],
+    "notes": [
+      "位置为安慧北里雅园4号楼底商，公开检索未匹配可靠同址房型页，当前分段通勤超过20分钟"
+    ],
+    "missing_fields": [
+      "可核对的在租房型",
+      "当前月租或包月报价",
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A09E2C": {
+    "checked_at": "2026-10-19",
+    "status": "公开房型或报价仍有缺项",
+    "listings": [],
+    "notes": [
+      "公开检索暂未取得可与该高德点位、院号一致核对的租赁详情页，保留位置、通勤和检索状态供选址参考"
+    ],
+    "missing_fields": [
+      "可核对的在租房型",
+      "当前月租或包月报价",
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0FFF3CEQ3": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "合租",
+        "layout": "3室1厅",
+        "community": "安苑北里",
+        "area_sqm": 8.0,
+        "price_month": 1900,
+        "orientation": "南",
+        "floor": "中楼层/25层 · 简装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "租期及押付方式需按房源确认",
+        "source_title": "〖安苑北里租房信息_北京安苑北里房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/348292/",
+        "source_date": "2026-09-19",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "1室0厅",
+        "community": "安苑北里",
+        "area_sqm": 43.7,
+        "price_month": 5600,
+        "orientation": "南",
+        "floor": "中楼层/25层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "〖安苑北里租房信息_北京安苑北里房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/348292/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "合租",
+        "layout": "3室1厅",
+        "community": "安苑北里",
+        "area_sqm": 15.0,
+        "price_month": 2680,
+        "orientation": "东",
+        "floor": "中楼层/25层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "租期及押付方式需按房源确认",
+        "source_title": "〖安苑北里租房信息_北京安苑北里房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/348292/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A81I7R": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "世茂奥临花园",
+        "area_sqm": 116.78,
+        "price_month": 12500,
+        "orientation": "南",
+        "floor": "中楼层/32层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "〖世茂奥临花园租房信息_北京世茂奥临花园房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/50985/",
+        "source_date": "2026-08-08",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "世茂奥临花园",
+        "area_sqm": 171.0,
+        "price_month": 13000,
+        "orientation": "南北",
+        "floor": "低楼层/26层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖、明卫",
+        "source_title": "〖世茂奥临花园租房信息_北京世茂奥临花园房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/50985/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "3室2厅",
+        "community": "世茂奥临花园",
+        "area_sqm": 175.36,
+        "price_month": 16500,
+        "orientation": "南北",
+        "floor": "中楼层/26层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖、年租、拎包入住",
+        "source_title": "〖世茂奥临花园租房信息_北京世茂奥临花园房屋出租价格〗-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/50985/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A81FW3": {
+    "checked_at": "2026-10-19",
+    "status": "公开房型或报价仍有缺项",
+    "listings": [],
+    "notes": [
+      "公开检索暂未取得可与该高德点位、院号一致核对的租赁详情页，保留位置、通勤和检索状态供选址参考"
+    ],
+    "missing_fields": [
+      "可核对的在租房型",
+      "当前月租或包月报价",
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000AA8ILC": {
+    "checked_at": "2026-10-19",
+    "status": "公开房型或报价仍有缺项",
+    "listings": [],
+    "notes": [
+      "公开检索暂未取得可与该高德点位、院号一致核对的租赁详情页，保留位置、通勤和检索状态供选址参考"
+    ],
+    "missing_fields": [
+      "可核对的在租房型",
+      "当前月租或包月报价",
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A7IKQQ": {
+    "checked_at": "2026-10-19",
+    "status": "公开房型或报价仍有缺项",
+    "listings": [],
+    "notes": [
+      "公开检索暂未取得可与该高德点位、院号一致核对的租赁详情页，保留位置、通勤和检索状态供选址参考"
+    ],
+    "missing_fields": [
+      "可核对的在租房型",
+      "当前月租或包月报价",
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A87HHJ": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "合租",
+        "layout": "4室1厅",
+        "community": "天畅园",
+        "area_sqm": 18.0,
+        "price_month": 1630,
+        "orientation": "东",
+        "floor": "高楼层/29层 · 简装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "租期及押付方式需按房源确认",
+        "source_title": "北京北苑路北租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss182/o5s1/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "1室1厅",
+        "community": "天畅园",
+        "area_sqm": 49.87,
+        "price_month": 4650,
+        "orientation": "东北",
+        "floor": "低楼层/32层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "租期及押付方式需按房源确认",
+        "source_title": "北京北苑路北租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss182/c1d1s1/",
+        "source_date": "2026-10-06",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "合租",
+        "layout": "4室1厅",
+        "community": "天畅园",
+        "area_sqm": 9.8,
+        "price_month": 1805,
+        "orientation": "西",
+        "floor": "低楼层/29层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "租期及押付方式需按房源确认",
+        "source_title": "北京北苑路北租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss182/o5s1/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A84K5K": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "育慧南路",
+        "area_sqm": 95.43,
+        "price_month": 7455,
+        "orientation": "南",
+        "floor": "高楼层/22层 · 简装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "房租月付",
+        "source_title": "北京芍药居租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss336/c3d1/",
+        "source_date": "2026-08-26",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [
+      "育慧南路为平台小区泛名，当前通勤未达标，具体院号仍需确认"
+    ],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A7PGY2": {
+    "checked_at": "2026-10-19",
+    "status": "公开房型或报价仍有缺项",
+    "listings": [],
+    "notes": [
+      "公开检索暂未取得可与该高德点位、院号一致核对的租赁详情页，保留位置、通勤和检索状态供选址参考"
+    ],
+    "missing_fields": [
+      "可核对的在租房型",
+      "当前月租或包月报价",
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B0H07148TS": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "望京新城",
+        "area_sqm": 91.73,
+        "price_month": 7800,
+        "orientation": "南",
+        "floor": "高楼层/26层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "〖望京新城租房信息_北京望京新城房屋出租价格〗最新发布-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/348439/o8p5/",
+        "source_date": "2026-09-10",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "望京新城",
+        "area_sqm": 92.25,
+        "price_month": 7800,
+        "orientation": "东南",
+        "floor": "中楼层/26层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "北京望京东90-110㎡租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss375/a2a4f1f2/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "2室1厅",
+        "community": "望京新城",
+        "area_sqm": 99.91,
+        "price_month": 7800,
+        "orientation": "南",
+        "floor": "中楼层/27层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "北京望京东租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss375/y4/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [
+      "望京新城样本为平台泛名，当前办公通勤已包含接驳全程，地铁线路段可另筛查看"
+    ],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  },
+  "B000A7Y8CZ": {
+    "checked_at": "2026-10-19",
+    "status": "已收录公开月租样本",
+    "listings": [
+      {
+        "mode": "整租",
+        "layout": "1室1厅",
+        "community": "慧谷阳光",
+        "area_sqm": 49.09,
+        "price_month": 5999,
+        "orientation": "东",
+        "floor": "低楼层/9层 · 简装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "租期及押付方式需按房源确认",
+        "source_title": "北京望京租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss5937/c1c2d1u1/",
+        "source_date": "2026-09-08",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "1室1厅",
+        "community": "慧谷阳光",
+        "area_sqm": 62.27,
+        "price_month": 6000,
+        "orientation": "西",
+        "floor": "中楼层/15层 · 简装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "租期及押付方式需按房源确认",
+        "source_title": "北京望京东90-110㎡租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss375/a2a4f1f2/",
+        "source_date": "2026-09-26",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      },
+      {
+        "mode": "整租",
+        "layout": "1室0厅",
+        "community": "慧谷阳光",
+        "area_sqm": 52.09,
+        "price_month": 6500,
+        "orientation": "北",
+        "floor": "低楼层/16层 · 精装",
+        "bathroom": "页面未说明独立卫浴",
+        "terms": "民水民电、集中供暖",
+        "source_title": "北京望京东一室租房-北京小区房源-房屋出租-房租价格-我爱我家",
+        "source_url": "https://bj.5i5j.com/zufang/subway/ss375/r1y2/",
+        "source_date": "20天以前",
+        "evidence_type": "search_extract",
+        "status": "平台公开挂牌样本，房态待确认",
+        "observed_at": "2026-10-19",
+        "kitchen": "来源未说明厨房使用方式",
+        "fees": "中介费、服务费及水电需核对"
+      }
+    ],
+    "notes": [],
+    "missing_fields": [
+      "卫浴是否独立",
+      "最低起租时长及押付",
+      "厨房与做饭条件",
+      "签约当天可用房间",
+      "是否可提供申请所需租赁材料"
+    ]
+  }
+}

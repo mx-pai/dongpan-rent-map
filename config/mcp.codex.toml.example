@@ -1,0 +1,4 @@
+# 将占位值替换为 Web 服务 key 后添加到本机 Codex 配置
+# 真实配置文件留在本机，勿提交仓库
+[mcp_servers.amap]
+url = "https://mcp.amap.com/mcp?key=YOUR_WEB_SERVICE_KEY"
