@@ -38,7 +38,7 @@ python3 scripts/build.py
 python3 -m http.server 8000 --directory _site
 ```
 
-浏览器访问 `http://localhost:8000`，使用相对资源路径，可部署在 GitHub Pages 的项目子路径
+浏览器访问 `http://localhost:8000`，使用相对资源路径，可部署在 GitHub Pages 的项目子路径，构建时为 JS 和 CSS 加入内容哈希版本号，JSON 每次加载时请求重新验证缓存
 
 ## 地点、天气与路径查询
 
