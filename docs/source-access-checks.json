@@ -1,0 +1,61 @@
+{
+  "as_of": "2026-10-19",
+  "checks": [
+    {
+      "url": "https://www.ziroom.com/x/718323494.html",
+      "final_url": "https://www.ziroom.com/x/718323494.html",
+      "http_status": 200,
+      "observed_at": "2026-10-19T21:09:02.129069+08:00",
+      "status": "blocked_or_no_readable_primary_body",
+      "limitation": "HTTP 200但正文为空，源站返回挑战脚本，未继续执行或绕过；不能复核房型价格"
+    },
+    {
+      "url": "https://www.ziroom.com/x/744600988.html",
+      "final_url": "https://www.ziroom.com/x/744600988.html",
+      "http_status": 200,
+      "observed_at": "2026-10-19T21:09:02.318324+08:00",
+      "status": "blocked_or_no_readable_primary_body",
+      "limitation": "HTTP 200但正文为空，源站返回挑战脚本，未继续执行或绕过；不能复核房型价格"
+    },
+    {
+      "url": "https://m.lianjia.com/chuzu/bj/brand/200306004772/erlizhuang/rpw1rt200600000001/",
+      "final_url": "https://hip.lianjia.com/forbidden?id=0c2d2627bdf1426fbadc96eac84272f4&reason=%E6%8A%B1%E6%AD%89%EF%BC%8C%E6%82%A8%E7%9A%84%E8%AF%B7%E6%B1%82%E6%9C%AA%E8%83%BD%E9%80%9A%E8%BF%87%E6%88%91%E4%BB%AC%E7%9A%84%E5%AE%89%E5%85%A8%E6%A3%80%E6%9F%A5%E3%80%82%E8%AF%B7%E7%A1%AE%E4%BF%9D%E6%82%A8%E7%9A%84%E8%BE%93%E5%85%A5%E7%AC%A6%E5%90%88%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E8%A7%84%E8%8C%83%E8%A6%81%E6%B1%82%EF%BC%8C%E6%84%9F%E8%B0%A2%E6%82%A8%E7%9A%84%E7%90%86%E8%A7%A3%E4%B8%8E%E9%85%8D%E5%90%88%EF%BC%81",
+      "http_status": 200,
+      "observed_at": "2026-10-19T21:09:02.572904+08:00",
+      "status": "blocked_or_no_readable_primary_body",
+      "limitation": "HTTP重定向到贝壳安全检查forbidden页面，未绕过；搜索结果列表金额仅为线索"
+    },
+    {
+      "url": "https://m.lianjia.com/chuzu/bj/brand/200301001000/erlizhuang/vr1rt200600000001l0l2/",
+      "final_url": "https://hip.lianjia.com/forbidden?id=a023bab3491a49d1bd96f9f3992e5d0d&reason=%E6%8A%B1%E6%AD%89%EF%BC%8C%E6%82%A8%E7%9A%84%E8%AF%B7%E6%B1%82%E6%9C%AA%E8%83%BD%E9%80%9A%E8%BF%87%E6%88%91%E4%BB%AC%E7%9A%84%E5%AE%89%E5%85%A8%E6%A3%80%E6%9F%A5%E3%80%82%E8%AF%B7%E7%A1%AE%E4%BF%9D%E6%82%A8%E7%9A%84%E8%BE%93%E5%85%A5%E7%AC%A6%E5%90%88%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E8%A7%84%E8%8C%83%E8%A6%81%E6%B1%82%EF%BC%8C%E6%84%9F%E8%B0%A2%E6%82%A8%E7%9A%84%E7%90%86%E8%A7%A3%E4%B8%8E%E9%85%8D%E5%90%88%EF%BC%81",
+      "http_status": 200,
+      "observed_at": "2026-10-19T21:09:02.721036+08:00",
+      "status": "blocked_or_no_readable_primary_body",
+      "limitation": "HTTP重定向到贝壳安全检查forbidden页面，未绕过；搜索结果列表金额仅为线索"
+    },
+    {
+      "url": "https://m.fang.com/zf/bj/3_511939862.html",
+      "final_url": null,
+      "http_status": null,
+      "observed_at": "2026-10-19T21:09:05.722096+08:00",
+      "status": "blocked_or_no_readable_primary_body",
+      "limitation": "公开HTTP连接被重置，搜索摘要有1000元/月、10㎡合租、2026-09-13更新，异常低价未复核，不纳入有效报价"
+    },
+    {
+      "url": "https://i.99hdf.com/zufang/bj-7621756843513905161.html",
+      "final_url": "https://i.99hdf.com/zufang/bj-7621756843513905161.html",
+      "http_status": 200,
+      "observed_at": "2026-10-19T21:09:06.475371+08:00",
+      "status": "blocked_or_no_readable_primary_body",
+      "limitation": "HTTP 200但公开正文为空，动态页面未能提取，搜索摘要的2800元/18㎡合租未复核"
+    }
+  ],
+  "notes": [
+    "租金和合同条件均为发布人页面声明，独立核验及可签约状态未知",
+    "最后登录只表示用户活动日期，不能等同房源发布日或更新日",
+    "HTTP 200正文可读表示抓取成功，不等同目前在租",
+    "Wellcee JSON-LD datePosted近似生成响应时间且未被正文原始发布日期支撑，不采用为发布时间",
+    "同页JSON-LD面积单位可能为FTK，实际使用可见页㎡或m²字段",
+    "未联系发布人、门店或中介，未登录账号"
+  ]
+}

@@ -4,6 +4,46 @@
     "status": "仅取得历史租赁样本",
     "listings": [
       {
+        "title": "清华东路甲7号院 · 合租次卧",
+        "mode": "合租",
+        "layout": "3卧室1卫生间",
+        "area_sqm": null,
+        "area_display": "房间面积未披露；整套90㎡",
+        "price_month": 2700,
+        "bathroom": "整套1卫，未写独卫",
+        "kitchen": "厨房使用方式待核",
+        "terms": "长租；押金2700元",
+        "fees": "全部附加费用待核",
+        "source_title": "Wellcee：清华东路甲7号院",
+        "source_url": "https://www.wellcee.com/cn/rent-apartment/1693056090040900",
+        "source_date": null,
+        "original_published_at": null,
+        "listing_updated_at": null,
+        "publisher_last_active_at": "2026-06-25",
+        "available_from": null,
+        "lease_ends_at": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "live_http_page",
+        "verification": {
+          "method": "direct_http",
+          "http_status": 200,
+          "readable_body": true,
+          "read_at": "2026-10-19T21:09:04.298551+08:00",
+          "sha256": "18d9e53c43a3d60b80eee0a82dc41750eab6108be5ce9db175211af9cc9490e9"
+        },
+        "availability_status": "unconfirmed",
+        "historical": false,
+        "status": "已核实公开页面文本和价格，未联系发布人，今日实际余房未确认",
+        "limitations": [
+          "最后登录2026-06-25，未有10月更新依据",
+          "90㎡为整套面积，房间面积未披露",
+          "地图匹配清华东路甲7号院，实际楼栋及出入口待核验",
+          "源站动态生成的JSON-LD datePosted不作为原始发布日期"
+        ],
+        "private_room": true,
+        "floor": "8"
+      },
+      {
         "title": "朝南主卧历史挂牌",
         "mode": "合租",
         "layout": "整套3室1厅1卫",
@@ -23,7 +63,8 @@
       }
     ],
     "notes": [
-      "房源页明确标注经纪人历史代理，当前空房及报价未确认"
+      "房源页明确标注经纪人历史代理，当前空房及报价未确认",
+      "本次直接读取原页，发布时间、用户活跃、可入住与抓取时间分别列出，实际空房仍需发布者确认"
     ],
     "missing_fields": [
       "卫浴是否独立",
@@ -332,62 +373,105 @@
     "status": "已收录公开月租样本",
     "listings": [
       {
-        "title": "35㎡一居月租样本",
+        "title": "住总寓@共享际 BJ338-01",
         "mode": "公寓整租",
-        "layout": "1居",
+        "layout": "一居室，平台标注 CoLiving",
         "area_sqm": 35,
         "price_month": 5500,
-        "bathroom": "来源未说明独立卫浴",
-        "kitchen": "来源未说明厨房使用方式",
-        "terms": "月付，押金5500元",
-        "fees": "其余费用未披露",
-        "source_title": "iStay：住总寓共享际一居",
+        "bathroom": "页面未披露卫浴细节",
+        "kitchen": "页面未披露厨房细节",
+        "terms": "每月支付，页面押金5500元，最低租期待核",
+        "fees": "服务费、水电及其他费用未披露",
+        "source_title": "iStay：住总寓@共享际 BJ338-01",
         "source_url": "https://istay.cn/zh/bj/product/ce0f8ba3-f60f-47ae-8399-77e9ee34f3db",
         "source_date": null,
+        "original_published_at": null,
         "observed_at": "2026-10-19",
-        "evidence_type": "search_extract",
-        "status": "公开页面样本，库存需确认",
-        "private_room": true
+        "evidence_type": "live_http_page",
+        "verification": {
+          "method": "direct_http",
+          "http_status": 200,
+          "readable_body": true,
+          "read_at": "2026-10-19T13:07:02.605623+00:00",
+          "sha256": "0f1ce49d9a73153645a0e9d33e01c5cc3db3b5b44af095479b96e493c16811b8"
+        },
+        "availability_status": "unconfirmed",
+        "status": "第三方代理页面现可读报价，实际空房与官方报价待确认",
+        "private_room": true,
+        "limitations": [
+          "页面未显示发布时间或报价更新时间",
+          "同门店站点距离标签与实际通勤应按地址复测",
+          "属于iStay代理报价，门店可租库存未确认"
+        ]
       },
       {
-        "title": "40㎡一居月租样本",
+        "title": "住总寓@共享际 BJ338-02",
         "mode": "公寓整租",
-        "layout": "1居",
+        "layout": "一居室，平台标注 CoLiving",
         "area_sqm": 40,
         "price_month": 6900,
-        "bathroom": "来源未说明独立卫浴",
-        "kitchen": "来源未说明厨房使用方式",
-        "terms": "月付，押金6900元",
-        "fees": "其余费用未披露",
-        "source_title": "iStay：住总寓共享际一居",
+        "bathroom": "页面未披露卫浴细节",
+        "kitchen": "页面未披露厨房细节",
+        "terms": "每月支付，页面押金6900元，最低租期待核",
+        "fees": "服务费、水电及其他费用未披露",
+        "source_title": "iStay：住总寓@共享际 BJ338-02",
         "source_url": "https://istay.cn/zh/bj/product/9e67e251-f162-4731-a116-bc00c4ad8811",
         "source_date": null,
+        "original_published_at": null,
         "observed_at": "2026-10-19",
-        "evidence_type": "search_extract",
-        "status": "公开页面样本，库存需确认",
-        "private_room": true
+        "evidence_type": "live_http_page",
+        "verification": {
+          "method": "direct_http",
+          "http_status": 200,
+          "readable_body": true,
+          "read_at": "2026-10-19T13:07:02.668374+00:00",
+          "sha256": "27777ee78df75648bdc358e1321b4a4d78e974ce3cf2127f2e67fedfae911077"
+        },
+        "availability_status": "unconfirmed",
+        "status": "第三方代理页面现可读报价，实际空房与官方报价待确认",
+        "private_room": true,
+        "limitations": [
+          "页面未显示发布时间或报价更新时间",
+          "同门店站点距离标签与实际通勤应按地址复测",
+          "属于iStay代理报价，门店可租库存未确认"
+        ]
       },
       {
-        "title": "40㎡一居月租样本",
+        "title": "住总寓@共享际 BJ338-03",
         "mode": "公寓整租",
-        "layout": "1居",
+        "layout": "一居室，平台标注 CoLiving",
         "area_sqm": 40,
         "price_month": 7200,
-        "bathroom": "来源未说明独立卫浴",
-        "kitchen": "来源未说明厨房使用方式",
-        "terms": "月付，押金7200元",
-        "fees": "其余费用未披露",
-        "source_title": "iStay：住总寓共享际一居",
+        "bathroom": "页面未披露卫浴细节",
+        "kitchen": "页面未披露厨房细节",
+        "terms": "每月支付，页面押金7200元，最低租期待核",
+        "fees": "服务费、水电及其他费用未披露",
+        "source_title": "iStay：住总寓@共享际 BJ338-03",
         "source_url": "https://istay.cn/zh/bj/product/0eae0cc5-d45c-497b-9222-8341704c0f86",
         "source_date": null,
+        "original_published_at": null,
         "observed_at": "2026-10-19",
-        "evidence_type": "search_extract",
-        "status": "公开页面样本，库存需确认",
-        "private_room": true
+        "evidence_type": "live_http_page",
+        "verification": {
+          "method": "direct_http",
+          "http_status": 200,
+          "readable_body": true,
+          "read_at": "2026-10-19T13:07:02.939812+00:00",
+          "sha256": "377c279aaebf0b2f8e351613a4bd659aff274b83e63836c79e44f40ad222ae2e"
+        },
+        "availability_status": "unconfirmed",
+        "status": "第三方代理页面现可读报价，实际空房与官方报价待确认",
+        "private_room": true,
+        "limitations": [
+          "页面未显示发布时间或报价更新时间",
+          "同门店站点距离标签与实际通勤应按地址复测",
+          "属于iStay代理报价，门店可租库存未确认"
+        ]
       }
     ],
     "notes": [
-      "月租样本来自第三方挂牌；携程同址住宿页展示免费公共厨房、洗衣房，短住押金政策与月租渠道分别核对"
+      "月租样本来自第三方挂牌；携程同址住宿页展示免费公共厨房、洗衣房，短住押金政策与月租渠道分别核对",
+      "本次直接读取原页，发布时间、用户活跃、可入住与抓取时间分别列出，实际空房仍需发布者确认"
     ],
     "missing_fields": [
       "卫浴是否独立",
@@ -490,6 +574,46 @@
     "status": "已收录公开月租样本",
     "listings": [
       {
+        "title": "南沙滩和谐小区 · 合租次卧",
+        "mode": "合租",
+        "layout": "整套3卧室1卫生间",
+        "area_sqm": 15,
+        "area_display": "15㎡房间",
+        "price_month": 2800,
+        "bathroom": "页面为整套1卫，未写次卧独卫",
+        "kitchen": "厨房使用方式待核",
+        "terms": "长租，入住时间可谈；押一付三；押金2800元",
+        "fees": "发布人写无中介费等其他费用；水电燃气网费均摊",
+        "source_title": "Wellcee：南沙滩和谐小区",
+        "source_url": "https://www.wellcee.com/cn/rent-apartment/1723897060115705",
+        "source_date": null,
+        "original_published_at": null,
+        "listing_updated_at": null,
+        "publisher_last_active_at": "2026-10-15",
+        "available_from": null,
+        "lease_ends_at": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "live_http_page",
+        "verification": {
+          "method": "direct_http",
+          "http_status": 200,
+          "readable_body": true,
+          "read_at": "2026-10-19T21:09:00.524939+08:00",
+          "sha256": "ca7ca5f8f00700879f79b47cee096749009c04365bf053309fd80206fa897787"
+        },
+        "availability_status": "unconfirmed",
+        "historical": false,
+        "status": "已核实公开页面文本和价格，未联系发布人，今日实际余房未确认",
+        "limitations": [
+          "最后登录2026-10-15仅证明用户活跃",
+          "可见主卧约20㎡，2800元报价明确对应约15㎡次卧",
+          "点位按小区名匹配，房源楼栋未确认",
+          "源站动态生成的JSON-LD datePosted不作为原始发布日期"
+        ],
+        "private_room": true,
+        "floor": "5"
+      },
+      {
         "mode": "整租",
         "layout": "2室1厅",
         "community": "南沙滩和谐小区",
@@ -509,7 +633,9 @@
         "fees": "中介费、服务费及水电需核对"
       }
     ],
-    "notes": [],
+    "notes": [
+      "本次直接读取原页，发布时间、用户活跃、可入住与抓取时间分别列出，实际空房仍需发布者确认"
+    ],
     "missing_fields": [
       "卫浴是否独立",
       "最低起租时长及押付",
@@ -626,6 +752,49 @@
     "status": "已收录公开月租样本",
     "listings": [
       {
+        "title": "二里庄小区 · 两居室合租次卧",
+        "mode": "合租",
+        "layout": "描述为精装两居，页面房间字段1卧1卫",
+        "area_sqm": 11,
+        "area_display": "11㎡房间",
+        "price_month": 3500,
+        "bathroom": "未写独卫，卫浴使用方式待确认",
+        "kitchen": "厨房使用方式待核",
+        "terms": "长租；押金3500元",
+        "fees": "民水民电燃气暖气；发布人写包维修、保洁、网费，无其他费用",
+        "source_title": "Wellcee：二里庄小区",
+        "source_url": "https://www.wellcee.com/cn/rent-apartment/1776049365338982",
+        "source_date": null,
+        "original_published_at": null,
+        "listing_updated_at": null,
+        "publisher_last_active_at": "2026-06-29",
+        "available_from": {
+          "raw": "随时可拎包入住",
+          "exact_date": null
+        },
+        "lease_ends_at": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "live_http_page",
+        "verification": {
+          "method": "direct_http",
+          "http_status": 200,
+          "readable_body": true,
+          "read_at": "2026-10-19T21:09:00.525092+08:00",
+          "sha256": "de8d5d401b3fc07f974817f71044d17a6c6a167282cacfdbe8660407d99a47c3"
+        },
+        "availability_status": "unconfirmed",
+        "historical": false,
+        "status": "已核实公开页面文本和价格，未联系发布人，今日实际余房未确认",
+        "limitations": [
+          "最后登录2026-06-29，未有10月更新依据",
+          "页顶面积67㎡为整套四舍五入，房间约11㎡",
+          "房间字段与描述的户型口径不同，按描述为两居合租",
+          "源站动态生成的JSON-LD datePosted不作为原始发布日期"
+        ],
+        "private_room": true,
+        "floor": "4"
+      },
+      {
         "mode": "整租",
         "layout": "2室1厅",
         "community": "二里庄小区",
@@ -683,7 +852,9 @@
         "fees": "中介费、服务费及水电需核对"
       }
     ],
-    "notes": [],
+    "notes": [
+      "本次直接读取原页，发布时间、用户活跃、可入住与抓取时间分别列出，实际空房仍需发布者确认"
+    ],
     "missing_fields": [
       "卫浴是否独立",
       "最低起租时长及押付",
@@ -944,28 +1115,204 @@
     "status": "已收录公开月租样本",
     "listings": [
       {
-        "title": "春晖独立一居",
+        "title": "学院路自如寓·春晖",
         "mode": "公寓整租",
         "layout": "1室1厅1厨1卫",
         "area_sqm": 24,
         "price_month": 5300,
+        "price_display": "5300–5700元/月",
         "bathroom": "独立卫生间",
+        "private_bath": true,
+        "private_room": true,
         "kitchen": "独立厨房",
         "terms": "可短租1–11个月或长租一年",
-        "fees": "服务费另计，押金及水电详询管家",
+        "fees": "服务费另计，押付及水电向门店核对",
         "source_title": "自如官方：学院路春晖",
         "source_url": "https://www.ziroomapartment.com/houseType/getDetail/8af5c12f60accc160160e9acc9eb3de0.html",
         "source_date": null,
+        "original_published_at": null,
         "observed_at": "2026-10-19",
-        "evidence_type": "page",
-        "status": "官网展示可签约及待入住房间，库存动态",
-        "price_display": "5300–5700元/月",
+        "evidence_type": "live_http_page",
+        "verification": {
+          "method": "direct_http",
+          "http_status": 200,
+          "readable_body": true,
+          "read_at": "2026-10-19T13:07:02.245584+00:00",
+          "sha256": "c18578abac98cf504b1ecaf8c0307e0b312895cce78d7d8abd45a2b3935a6898"
+        },
+        "availability_status": "source_available",
+        "status": "本次官网显示可签约及预订房号，实际库存向门店确认",
+        "rooms": [
+          {
+            "room_number": "426",
+            "price_month": 5700,
+            "area_sqm": 24.0,
+            "orientation": "朝南",
+            "floor": 4,
+            "source_state": "可预订·预计2026-10-20日可入住",
+            "available_from": "2026-10-20"
+          },
+          {
+            "room_number": "529",
+            "price_month": 5600,
+            "area_sqm": 24.0,
+            "orientation": "朝北",
+            "floor": 5,
+            "source_state": "可预订·预计2026-11-02日可入住",
+            "available_from": "2026-11-02"
+          },
+          {
+            "room_number": "132",
+            "price_month": 5300,
+            "area_sqm": 24.0,
+            "orientation": "朝南",
+            "floor": 1,
+            "source_state": "可签约·随时入住",
+            "available_from": null
+          },
+          {
+            "room_number": "515",
+            "price_month": 5600,
+            "area_sqm": 24.0,
+            "orientation": "朝北",
+            "floor": 5,
+            "source_state": "可预订·预计2026-11-19日可入住",
+            "available_from": "2026-11-19"
+          },
+          {
+            "room_number": "215",
+            "price_month": 5600,
+            "area_sqm": 24.0,
+            "orientation": "朝北",
+            "floor": 2,
+            "source_state": "可预订·预计2026-10-25日可入住",
+            "available_from": "2026-10-25"
+          }
+        ],
+        "limitations": [
+          "原始发布时间未披露",
+          "搜索索引与当前官网房态有差异，以打开的原页和门店确认为准",
+          "页面可签约标签未经过线下房态确认"
+        ]
+      },
+      {
+        "title": "学院路自如寓·秋曦",
+        "mode": "公寓整租",
+        "layout": "1室1厨1卫及露天阳台",
+        "area_sqm": 24,
+        "price_month": 6100,
+        "price_display": "6100元/月",
+        "bathroom": "独立卫生间",
         "private_bath": true,
-        "private_room": true
+        "private_room": true,
+        "kitchen": "独立厨房",
+        "terms": "可短租1–11个月或长租一年",
+        "fees": "服务费另计，押付及水电向门店核对",
+        "source_title": "自如官方：学院路秋曦",
+        "source_url": "https://www.ziroomapartment.com/houseType/getDetail/8af5c12f60accc160160e9acf8e33de1.html",
+        "source_date": null,
+        "original_published_at": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "live_http_page",
+        "verification": {
+          "method": "direct_http",
+          "http_status": 200,
+          "readable_body": true,
+          "read_at": "2026-10-19T13:07:02.245827+00:00",
+          "sha256": "7e5d97dface4092cf20abe8d9b043ffe4abe049bc1c5d265b5bca32dc23386ee"
+        },
+        "availability_status": "source_available",
+        "status": "本次官网显示可签约及预订房号，实际库存向门店确认",
+        "rooms": [
+          {
+            "room_number": "118",
+            "price_month": 6100,
+            "area_sqm": 24.0,
+            "orientation": "朝南",
+            "floor": 1,
+            "source_state": "可签约·随时入住",
+            "available_from": null
+          }
+        ],
+        "limitations": [
+          "原始发布时间未披露",
+          "搜索索引与当前官网房态有差异，以打开的原页和门店确认为准",
+          "页面可签约标签未经过线下房态确认"
+        ]
+      },
+      {
+        "title": "学院路自如寓·浅夏",
+        "mode": "公寓整租",
+        "layout": "1室1厅1厨1卫",
+        "area_sqm": 29,
+        "price_month": 6200,
+        "price_display": "6200元/月 · 原页显示满房",
+        "bathroom": "独立卫生间",
+        "private_bath": true,
+        "private_room": true,
+        "kitchen": "独立厨房",
+        "terms": "可短租1–11个月或长租一年",
+        "fees": "服务费另计，押付及水电向门店核对",
+        "source_title": "自如官方：学院路浅夏",
+        "source_url": "https://www.ziroomapartment.com/houseType/getDetail/8af5c12f60accc160160e9ad2a3c3de2.html",
+        "source_date": null,
+        "original_published_at": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "live_http_page",
+        "verification": {
+          "method": "direct_http",
+          "http_status": 200,
+          "readable_body": true,
+          "read_at": "2026-10-19T13:07:02.245933+00:00",
+          "sha256": "e1e0e0d5455936ba668c904abe98f4cb79cdf6854cdd819c430e71f4313d4526"
+        },
+        "availability_status": "full",
+        "status": "本次官网可租房间区显示满房",
+        "rooms": [],
+        "limitations": [
+          "原始发布时间未披露",
+          "搜索索引与当前官网房态有差异，以打开的原页和门店确认为准",
+          "页面可签约标签未经过线下房态确认"
+        ]
+      },
+      {
+        "title": "学院路自如寓·冬藏",
+        "mode": "公寓整租",
+        "layout": "1室1厅1厨1卫",
+        "area_sqm": 35,
+        "price_month": 7000,
+        "price_display": "7000元/月 · 原页显示满房",
+        "bathroom": "独立卫生间",
+        "private_bath": true,
+        "private_room": true,
+        "kitchen": "独立厨房",
+        "terms": "可短租1–11个月或长租一年",
+        "fees": "服务费另计，押付及水电向门店核对",
+        "source_title": "自如官方：学院路冬藏",
+        "source_url": "https://www.ziroomapartment.com/houseType/getDetail/8af5c12f60accc160160e9ad50c53de3.html",
+        "source_date": null,
+        "original_published_at": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "live_http_page",
+        "verification": {
+          "method": "direct_http",
+          "http_status": 200,
+          "readable_body": true,
+          "read_at": "2026-10-19T13:07:02.600859+00:00",
+          "sha256": "665c117d00544ea86f82037cd4052adcdf947a9792ab3e1befde4c0ea9b85a06"
+        },
+        "availability_status": "full",
+        "status": "本次官网可租房间区显示满房",
+        "rooms": [],
+        "limitations": [
+          "原始发布时间未披露",
+          "搜索索引与当前官网房态有差异，以打开的原页和门店确认为准",
+          "页面可签约标签未经过线下房态确认"
+        ]
       }
     ],
     "notes": [
-      "官网展示不同房号的可入住日期，包括2026-10-19、10-25及11-02，报价按房号与签约时长变化"
+      "本次直接读取原页，发布时间、用户活跃、可入住与抓取时间分别列出，实际空房仍需发布者确认"
     ],
     "missing_fields": [
       "签约当天可用房间",
@@ -1343,6 +1690,49 @@
     "status": "已收录公开月租样本",
     "listings": [
       {
+        "title": "志新村小区 · 三居合租主卧",
+        "mode": "合租",
+        "layout": "描述3居，页面1卧1卫是房间口径",
+        "area_sqm": 18,
+        "area_display": "18㎡房间",
+        "price_month": 3300,
+        "bathroom": "未写独卫",
+        "kitchen": "厨房使用方式待核",
+        "terms": "转租到8月12日，页面标签租期不限；押金3300元",
+        "fees": "全部附加费用待核",
+        "source_title": "Wellcee：志新村小区",
+        "source_url": "https://www.wellcee.com/cn/rent-apartment/1745850988666851",
+        "source_date": null,
+        "original_published_at": null,
+        "listing_updated_at": null,
+        "publisher_last_active_at": "2026-05-14",
+        "available_from": null,
+        "lease_ends_at": {
+          "raw": "转租到8月12号",
+          "year": null
+        },
+        "observed_at": "2026-10-19",
+        "evidence_type": "live_http_page",
+        "verification": {
+          "method": "direct_http",
+          "http_status": 200,
+          "readable_body": true,
+          "read_at": "2026-10-19T21:09:02.016831+08:00",
+          "sha256": "3f05d3d0d1a0754e3ce6b21aeab8951d79260587acf274bc2212516526fc1e14"
+        },
+        "availability_status": "expired",
+        "historical": true,
+        "status": "已核实公开页面文本和价格，未联系发布人，今日实际余房未确认",
+        "limitations": [
+          "最后登录2026-05-14",
+          "描述转租到8月12日未标年份，按2026年活跃时间语境为已过窗口",
+          "页面租期不限标签与描述到期日不一致，应以具体合同确认",
+          "源站动态生成的JSON-LD datePosted不作为原始发布日期"
+        ],
+        "private_room": true,
+        "floor": "17"
+      },
+      {
         "mode": "整租",
         "layout": "1室1厅",
         "community": "志新村小区",
@@ -1400,7 +1790,9 @@
         "fees": "中介费、服务费及水电需核对"
       }
     ],
-    "notes": [],
+    "notes": [
+      "本次直接读取原页，发布时间、用户活跃、可入住与抓取时间分别列出，实际空房仍需发布者确认"
+    ],
     "missing_fields": [
       "卫浴是否独立",
       "最低起租时长及押付",
@@ -1447,6 +1839,97 @@
     "status": "已收录公开月租样本",
     "listings": [
       {
+        "title": "学知园 · 合租房间",
+        "mode": "合租",
+        "layout": "4卧室2卫生间复式",
+        "area_sqm": 19,
+        "area_display": "19㎡房间",
+        "price_month": 2600,
+        "bathroom": "楼上楼下各有卫生间，未写本房独卫",
+        "kitchen": "可做饭，上下楼洗衣机、热水器、冰箱各一套",
+        "terms": "长租；押金2600元",
+        "fees": "发布人写无中介费；个人简介写无服务费，描述写无管理费",
+        "source_title": "Wellcee：学知园",
+        "source_url": "https://www.wellcee.com/cn/rent-apartment/1777958440777711",
+        "source_date": null,
+        "original_published_at": null,
+        "listing_updated_at": null,
+        "publisher_last_active_at": "2026-10-17",
+        "available_from": {
+          "raw": "随时可以住",
+          "exact_date": null
+        },
+        "lease_ends_at": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "live_http_page",
+        "verification": {
+          "method": "direct_http",
+          "http_status": 200,
+          "readable_body": true,
+          "read_at": "2026-10-19T21:09:03.307342+08:00",
+          "sha256": "4490ceb697e0f677ab56a671715c93b91e00d8260c0a5a960c5509980b2bb3ca"
+        },
+        "availability_status": "unconfirmed",
+        "historical": false,
+        "status": "已核实公开页面文本和价格，未联系发布人，今日实际余房未确认",
+        "limitations": [
+          "最后登录2026-10-17仅证明用户活跃",
+          "页面描述楼上楼下各有一间出租，并写随时可以住，今天实际空房仍需核验",
+          "4室2卫为源页声明，实际布局和合同需确认",
+          "源站动态生成的JSON-LD datePosted不作为原始发布日期"
+        ],
+        "private_room": true,
+        "floor": "18"
+      },
+      {
+        "title": "学知园 · 复式二层合租卧室",
+        "mode": "合租",
+        "layout": "7户2卫复式",
+        "area_sqm": 12,
+        "area_display": "12㎡房间",
+        "price_month": 1900,
+        "bathroom": "上下楼各1卫生间，公用",
+        "kitchen": "厨房使用方式待核",
+        "terms": "押金2000元",
+        "fees": "发布人写无中介费；水电网由室友平摊",
+        "source_title": "Wellcee：学知园",
+        "source_url": "https://www.wellcee.com/cn/rent-apartment/1785642863480076",
+        "source_date": null,
+        "original_published_at": null,
+        "listing_updated_at": null,
+        "publisher_last_active_at": "2026-09-15",
+        "available_from": {
+          "raw": "8月10日后可入住",
+          "year": null
+        },
+        "lease_ends_at": {
+          "raw": "剩余租期至9月20日",
+          "inferred_date": "2026-09-20",
+          "inference": true
+        },
+        "observed_at": "2026-10-19",
+        "evidence_type": "live_http_page",
+        "verification": {
+          "method": "direct_http",
+          "http_status": 200,
+          "readable_body": true,
+          "read_at": "2026-10-19T21:09:01.325674+08:00",
+          "sha256": "3b544fc1a209edeec920532767709cc70a4c2d154352922c892ffae3d22d42b8"
+        },
+        "availability_status": "expired",
+        "historical": true,
+        "status": "已核实公开页面文本和价格，未联系发布人，今日实际余房未确认",
+        "limitations": [
+          "最后登录2026-09-15",
+          "剩余租期至9月20日，按2026年语境已过期，续租文字不能证明10月仍出租",
+          "7户2卫为发布人声明，应核实具体房间布局",
+          "地址地图误归朝阳，按正文海淀学知园及同名小区关联，楼栋需确认",
+          "源站动态生成的JSON-LD datePosted不作为原始发布日期"
+        ],
+        "private_room": true,
+        "floor": "18"
+      },
+      {
         "mode": "合租",
         "layout": "4室1厅",
         "community": "学知园",
@@ -1485,7 +1968,9 @@
         "fees": "中介费、服务费及水电需核对"
       }
     ],
-    "notes": [],
+    "notes": [
+      "本次直接读取原页，发布时间、用户活跃、可入住与抓取时间分别列出，实际空房仍需发布者确认"
+    ],
     "missing_fields": [
       "卫浴是否独立",
       "最低起租时长及押付",
@@ -1916,6 +2401,50 @@
     "status": "已收录公开月租样本",
     "listings": [
       {
+        "title": "清枫华景园 · 合租朝北次卧",
+        "mode": "合租",
+        "layout": "页头1卧1卫是房间口径，整套户数未写",
+        "area_sqm": 15,
+        "area_display": "15㎡房间",
+        "price_month": 2400,
+        "bathroom": "厨房、卫生间、客厅共用",
+        "kitchen": "厨房使用方式待核",
+        "terms": "短租到7月26日，可续租到8月底；押金2400元",
+        "fees": "月租另加服务费433元/月；其他费用待核",
+        "source_title": "Wellcee：清枫华景园",
+        "source_url": "https://www.wellcee.com/cn/rent-apartment/1779462232760185",
+        "source_date": null,
+        "original_published_at": null,
+        "listing_updated_at": null,
+        "publisher_last_active_at": "2026-05-26",
+        "available_from": null,
+        "lease_ends_at": {
+          "raw": "租期到7.26，可续到8月底",
+          "year": null
+        },
+        "observed_at": "2026-10-19",
+        "evidence_type": "live_http_page",
+        "verification": {
+          "method": "direct_http",
+          "http_status": 200,
+          "readable_body": true,
+          "read_at": "2026-10-19T21:09:01.607080+08:00",
+          "sha256": "0dbee2d37d97d52e636ab301dccb3969f2213c4e24b31d1fea4f77dff5a85e97"
+        },
+        "availability_status": "expired",
+        "historical": true,
+        "status": "已核实公开页面文本和价格，未联系发布人，今日实际余房未确认",
+        "limitations": [
+          "最后登录2026-05-26",
+          "文中7月26日与8月底未标年份，按发布活跃时间语境原转租窗口已过",
+          "2400元月租另加433元每月服务费，不能只显示2400作为总月成本",
+          "源站动态生成的JSON-LD datePosted不作为原始发布日期"
+        ],
+        "private_room": true,
+        "floor": "8",
+        "monthly_extra_fee": 433
+      },
+      {
         "mode": "整租",
         "layout": "2室1厅",
         "community": "清枫华景园",
@@ -1933,26 +2462,11 @@
         "observed_at": "2026-10-19",
         "kitchen": "来源未说明厨房使用方式",
         "fees": "中介费、服务费及水电需核对"
-      },
-      {
-        "title": "清枫华景园次卧转租",
-        "mode": "合租",
-        "layout": "合租次卧",
-        "area_sqm": null,
-        "price_month": 2400,
-        "bathroom": "来源未说明独立卫浴",
-        "kitchen": "来源未说明厨房使用方式",
-        "terms": "租期和押付待确认",
-        "fees": "页面另列服务费433元/月",
-        "source_title": "Wellcee：清枫华景园次卧",
-        "source_url": "https://www.wellcee.com/tw/rent-apartment/1779462232760185",
-        "source_date": null,
-        "observed_at": "2026-10-19",
-        "evidence_type": "search_extract",
-        "status": "公开页面样本，库存需确认"
       }
     ],
-    "notes": [],
+    "notes": [
+      "本次直接读取原页，发布时间、用户活跃、可入住与抓取时间分别列出，实际空房仍需发布者确认"
+    ],
     "missing_fields": [
       "卫浴是否独立",
       "最低起租时长及押付",
@@ -1965,6 +2479,46 @@
     "checked_at": "2026-10-19",
     "status": "已收录公开月租样本",
     "listings": [
+      {
+        "title": "逸成东苑 · 合租朝南主卧",
+        "mode": "合租",
+        "layout": "整套3卧室1卫生间",
+        "area_sqm": 18,
+        "area_display": "18㎡房间",
+        "price_month": 2800,
+        "bathroom": "整套1卫，未写独卫",
+        "kitchen": "电梯、厨房、洗衣机、热水、空调，页面写可做饭",
+        "terms": "长租；押金2800元",
+        "fees": "全部附加费用待核",
+        "source_title": "Wellcee：逸成东苑",
+        "source_url": "https://www.wellcee.com/cn/rent-apartment/1782558641877707",
+        "source_date": null,
+        "original_published_at": null,
+        "listing_updated_at": null,
+        "publisher_last_active_at": "2026-10-13",
+        "available_from": null,
+        "lease_ends_at": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "live_http_page",
+        "verification": {
+          "method": "direct_http",
+          "http_status": 200,
+          "readable_body": true,
+          "read_at": "2026-10-19T21:09:01.488032+08:00",
+          "sha256": "e15b8c6d4189fa6920e14fe6e17281ddd04be4af16cf0d224eb90d7097cff01f"
+        },
+        "availability_status": "unconfirmed",
+        "historical": false,
+        "status": "已核实公开页面文本和价格，未联系发布人，今日实际余房未确认",
+        "limitations": [
+          "最后登录2026-10-13仅证明用户活跃",
+          "89㎡为整套面积，房间约18㎡来自描述",
+          "源页描述写逸城东苑，地图地址为逸成东苑，按同小区别名匹配",
+          "源站动态生成的JSON-LD datePosted不作为原始发布日期"
+        ],
+        "private_room": true,
+        "floor": "8"
+      },
       {
         "mode": "合租",
         "layout": "3室1厅",
@@ -2023,7 +2577,9 @@
         "fees": "中介费、服务费及水电需核对"
       }
     ],
-    "notes": [],
+    "notes": [
+      "本次直接读取原页，发布时间、用户活跃、可入住与抓取时间分别列出，实际空房仍需发布者确认"
+    ],
     "missing_fields": [
       "卫浴是否独立",
       "最低起租时长及押付",
@@ -2036,6 +2592,129 @@
     "checked_at": "2026-10-19",
     "status": "已收录公开月租样本",
     "listings": [
+      {
+        "title": "东王庄小区 · 20㎡主卧（未来入住）",
+        "mode": "合租",
+        "layout": "3室1厅1厨1卫",
+        "area_sqm": 20,
+        "area_display": "20㎡房间",
+        "price_month": 3600,
+        "bathroom": "整套1卫，未写独卫",
+        "kitchen": "厨房使用方式待核",
+        "terms": "长短租均可；押金3600元",
+        "fees": "发布人自称房东，金额未写；每月房东亲自一次免费保洁",
+        "source_title": "Wellcee：东王庄小区",
+        "source_url": "https://www.wellcee.com/cn/rent-apartment/1779855859177884",
+        "source_date": null,
+        "original_published_at": null,
+        "listing_updated_at": null,
+        "publisher_last_active_at": "2026-10-19",
+        "available_from": "2027-01-20",
+        "lease_ends_at": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "live_http_page",
+        "verification": {
+          "method": "direct_http",
+          "http_status": 200,
+          "readable_body": true,
+          "read_at": "2026-10-19T21:09:00.524625+08:00",
+          "sha256": "bae14c27f9d82c7399787c311a9a98c0a85d4c50222b00d5c1c0ddaf6d4c45db"
+        },
+        "availability_status": "future",
+        "historical": false,
+        "status": "已核实公开页面文本和价格，未联系发布人，今日实际余房未确认",
+        "limitations": [
+          "源站最后登录2026-10-19，搜索缓存仍为2026-10-01",
+          "主卧要2027-01-20可入住，小次卧要2027-02-20可入住",
+          "不可因用户今天登录或结构化InStock即认定今日可入住",
+          "源站动态生成的JSON-LD datePosted不作为原始发布日期"
+        ],
+        "private_room": true,
+        "floor": "5"
+      },
+      {
+        "title": "东王庄小区 · 9㎡小次卧（未来入住）",
+        "mode": "合租",
+        "layout": "3室1厅1厨1卫",
+        "area_sqm": 9,
+        "area_display": "9㎡房间",
+        "price_month": 2900,
+        "bathroom": "整套1卫，未写独卫",
+        "kitchen": "厨房使用方式待核",
+        "terms": "押付与租期按该次卧单独核对",
+        "fees": "发布人自称房东，金额未写；每月房东亲自一次免费保洁",
+        "source_title": "Wellcee：东王庄小区",
+        "source_url": "https://www.wellcee.com/cn/rent-apartment/1779855859177884",
+        "source_date": null,
+        "original_published_at": null,
+        "listing_updated_at": null,
+        "publisher_last_active_at": "2026-10-19",
+        "available_from": "2027-02-20",
+        "lease_ends_at": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "live_http_page",
+        "verification": {
+          "method": "direct_http",
+          "http_status": 200,
+          "readable_body": true,
+          "read_at": "2026-10-19T21:09:00.524625+08:00",
+          "sha256": "bae14c27f9d82c7399787c311a9a98c0a85d4c50222b00d5c1c0ddaf6d4c45db"
+        },
+        "availability_status": "future",
+        "historical": false,
+        "status": "已核实公开页面文本和价格，未联系发布人，今日实际余房未确认",
+        "limitations": [
+          "源站最后登录2026-10-19，搜索缓存仍为2026-10-01",
+          "主卧要2027-01-20可入住，小次卧要2027-02-20可入住",
+          "不可因用户今天登录或结构化InStock即认定今日可入住",
+          "源站动态生成的JSON-LD datePosted不作为原始发布日期"
+        ],
+        "private_room": true,
+        "floor": "5"
+      },
+      {
+        "title": "东王庄小区 · 合租朝北卧室",
+        "mode": "合租",
+        "layout": "3卧室1卫生间",
+        "area_sqm": null,
+        "area_display": "房间面积未披露；整套78㎡",
+        "price_month": 3000,
+        "bathroom": "客厅、厨房、卫生间共用",
+        "kitchen": "厨房使用方式待核",
+        "terms": "租期不限；押一付一；押金3000元",
+        "fees": "全部附加费用待核",
+        "source_title": "Wellcee：东王庄小区",
+        "source_url": "https://www.wellcee.com/cn/rent-apartment/1783660898519785",
+        "source_date": null,
+        "original_published_at": null,
+        "listing_updated_at": null,
+        "publisher_last_active_at": "2026-08-09",
+        "available_from": {
+          "raw": "7月20日后可随时入住",
+          "year": null
+        },
+        "lease_ends_at": null,
+        "observed_at": "2026-10-19",
+        "evidence_type": "live_http_page",
+        "verification": {
+          "method": "direct_http",
+          "http_status": 200,
+          "readable_body": true,
+          "read_at": "2026-10-19T21:09:00.525215+08:00",
+          "sha256": "b8354cf4f1de2aa888e0eaef16c4d7d9fb1150e8cc26940a4879546b7e9159c7"
+        },
+        "availability_status": "unconfirmed",
+        "historical": false,
+        "status": "已核实公开页面文本和价格，未联系发布人，今日实际余房未确认",
+        "limitations": [
+          "最后登录2026-08-09，未有10月更新依据",
+          "7月20日可入住未标年份",
+          "78㎡为整套面积，不能当房间面积",
+          "源站动态生成的JSON-LD datePosted不作为原始发布日期"
+        ],
+        "private_room": true,
+        "floor": "6"
+      },
       {
         "mode": "合租",
         "layout": "3室1厅",
@@ -2094,7 +2773,9 @@
         "fees": "中介费、服务费及水电需核对"
       }
     ],
-    "notes": [],
+    "notes": [
+      "本次直接读取原页，发布时间、用户活跃、可入住与抓取时间分别列出，实际空房仍需发布者确认"
+    ],
     "missing_fields": [
       "卫浴是否独立",
       "最低起租时长及押付",

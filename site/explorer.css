@@ -164,3 +164,28 @@ body.map-fullscreen{overflow:hidden}
 @media(prefers-reduced-motion:reduce){.place-panel,.toast{transition:none}}
 
 @media(max-width:720px){.place-panel:not(.is-expanded) #detail>.route-copy-actions{display:none}}
+
+.update-banner{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 14px;margin:0 0 12px;border:1px solid #b9cbdc;border-radius:6px;background:#f1f6fa;font-size:12px}
+.update-banner[hidden]{display:none}
+.update-banner button{flex:none;border:1px solid #a5b9cd;background:white;border-radius:4px;padding:6px 10px;color:var(--ink);font-size:12px}
+.source-badges{display:flex;flex-wrap:wrap;align-items:center;gap:5px;margin-bottom:8px;font-size:10px;line-height:1.7}
+.source-badges b{font-weight:550;color:#526679}
+.source-badges span{border:1px solid #dae2e9;border-radius:4px;padding:1px 5px;background:#f5f7f9;color:#63758a}
+[data-freshness=page_price] .source-badges span{background:#eaf4ef;border-color:#bfd8cc;color:#186b53}
+[data-freshness=full] .source-badges span,[data-freshness=expired] .source-badges span{background:#fbf0ed;border-color:#e6c8bf;color:#94513f}
+[data-freshness=future] .source-badges span{background:#f2edf8;border-color:#d5c7e7;color:#6b4d90}
+.evidence-intro,.reference-warning,.evidence-empty{font-size:11px;line-height:1.9;color:var(--muted);margin:10px 0 15px}
+.record-limit{font-size:10px;line-height:1.9;color:#6e7d8c;margin:5px 0}
+.room-observations,.reference-listings,.missing-fields{font-size:11px;margin:13px 0}
+.room-observations summary,.reference-listings summary,.missing-fields summary{cursor:pointer;color:#526b82;line-height:1.8}
+.room-observations p{font-size:10px;padding-left:10px;color:var(--muted)}
+.reference-listings{border-top:1px solid var(--line);padding-top:12px}
+.reference-listings .listing{background:#fafbfd;border:1px solid #e6edf3;border-radius:5px;padding:12px;margin:12px 0}
+.reference-listings .listing-price{font-size:15px;color:#63758a}
+.source-audit{flex-basis:100%;width:100%;font-size:12px;margin-top:-8px}
+.source-audit summary{cursor:pointer;color:#526b82;line-height:1.8}
+.source-audit p{font-size:11px;line-height:1.9;margin:12px 0}
+.source-audit .table-wrap{max-width:820px;margin:12px 0}
+.source-audit table{min-width:480px;font-size:11px}
+.source-audit td,.source-audit th{padding:8px 12px}
+@media(max-width:720px){.filter-popover{max-height:calc(100svh - 240px);overflow:auto}.map-page .research-summary .source-audit{margin-top:4px}.source-audit summary{font-size:11px}.source-audit p{font-size:10px}.update-banner{font-size:11px}}

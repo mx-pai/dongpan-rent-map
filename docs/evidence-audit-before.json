@@ -1,0 +1,24 @@
+{
+  "as_of": "2026-10-19",
+  "records": 105,
+  "evidence_types": {
+    "search_extract": 100,
+    "page": 5
+  },
+  "source_hosts": {
+    "bj.zu.anjuke.com": 1,
+    "bj.5i5j.com": 81,
+    "fangchan.snssdk.com": 1,
+    "istay.cn": 3,
+    "sg.trip.com": 2,
+    "www.wellcee.com": 3,
+    "hk.trip.com": 4,
+    "www.ziroomapartment.com": 1,
+    "bj.zu.ke.com": 1,
+    "bj.58.com": 2,
+    "m.xflapp.com": 1,
+    "tw.trip.com": 5
+  },
+  "relative_dates": 48,
+  "missing_dates": 21
+}
