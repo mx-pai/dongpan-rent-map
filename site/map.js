@@ -38,6 +38,7 @@ class RentalMap {
     L.control.scale({imperial:false,position:'bottomleft',maxWidth:110}).addTo(this.map)
     this.map.attributionControl.setPrefix('<a href="https://leafletjs.com/" target="_blank" rel="noopener noreferrer">Leaflet</a>')
     this.map.on('moveend zoomend',()=>this.queueLabels())
+    this.map.on('dragstart zoomstart',()=>clearTimeout(this.revealTimer))
     this.clusters.on('animationend spiderfied unspiderfied',()=>this.queueLabels())
     this.map.on('click',()=>this.office.closePopup())
     new ResizeObserver(()=>this.map.invalidateSize({pan:false})).observe(document.getElementById(container))
@@ -117,6 +118,14 @@ class RentalMap {
   fitRoute(animate=true){
     if(this.routes.getLayers().length)this.map.fitBounds(this.routes.getBounds(),{paddingTopLeft:[70,75],paddingBottomRight:[70,matchMedia('(max-width:720px)').matches?190:75],maxZoom:16.75,animate:animate&&!this.reduced,duration:.35})
     else if(this.routePoint)this.focus(this.routePoint)
+    clearTimeout(this.revealTimer)
+    const id=this.selected?.id
+    this.revealTimer=setTimeout(()=>{
+      if(this.selected?.id!==id)return
+      const marker=this.markers.get(id),parent=marker&&this.clusters.getVisibleParent(marker)
+      if(parent&&parent!==marker&&typeof parent.spiderfy==='function')parent.spiderfy()
+      this.queueLabels()
+    },400)
   }
   queueLabels(){cancelAnimationFrame(this.labelsFrame);this.labelsFrame=requestAnimationFrame(()=>this.layoutLabels())}
   layoutLabels(){

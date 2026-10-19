@@ -46,6 +46,7 @@ let server,browser
  const phone=await mobile.newPage();phone.on('pageerror',error=>errors.push(error.message))
  await phone.goto(url);await phone.waitForFunction(()=>window.rentMapReady)
  assert.equal(await phone.evaluate(()=>document.documentElement.scrollWidth),390)
+ await phone.locator('.poi-marker[data-poi="B0H2NHE1PB"]').waitFor({state:'visible'})
  await phone.locator('#collapse-panel').click();assert.equal(await phone.locator('#collapse-panel').getAttribute('aria-expanded'),'true')
  await phone.locator('#collapse-panel').click()
  const initial=await phone.evaluate(()=>rentalMap.map.getZoom())
