@@ -1,24 +1,75 @@
 {
-  "nativeZoom": 15,
+  "minZoom": 11,
+  "maxNativeZoom": 16,
   "tileSize": 1024,
   "scale": 2,
-  "bounds": [
+  "levels": {
+    "11": {
+      "tileRange": [
+        420,
+        192,
+        422,
+        194
+      ],
+      "tileCount": 9
+    },
+    "12": {
+      "tileRange": [
+        841,
+        386,
+        844,
+        388
+      ],
+      "tileCount": 12
+    },
+    "13": {
+      "tileRange": [
+        1684,
+        774,
+        1687,
+        776
+      ],
+      "tileCount": 12
+    },
+    "14": {
+      "tileRange": [
+        3371,
+        1550,
+        3373,
+        1551
+      ],
+      "tileCount": 6
+    },
+    "15": {
+      "tileRange": [
+        6742,
+        3100,
+        6746,
+        3102
+      ],
+      "tileCount": 15
+    },
+    "16": {
+      "tileRange": [
+        13485,
+        6200,
+        13493,
+        6204
+      ],
+      "tileCount": 45
+    }
+  },
+  "coverageBounds": [
     [
-      39.943436461974215,
-      116.279296875
+      39.965297,
+      116.322875
     ],
     [
-      40.044437584608566,
-      116.4990234375
+      40.043047,
+      116.492242
     ]
   ],
-  "tileRange": [
-    6742,
-    3100,
-    6746,
-    3102
-  ],
-  "tileCount": 15,
+  "tileCount": 99,
   "source": "Amap Static Maps API",
   "coordinateSystem": "GCJ-02",
   "captured_at": "2026-10-19"

@@ -7,20 +7,28 @@ class RentalMap {
     this.visible=[]
     this.selected=null
     this.reduced=matchMedia('(prefers-reduced-motion: reduce)').matches
-    this.map=L.map(container,{zoomControl:false,minZoom:12,maxZoom:18,zoomSnap:.25,zoomDelta:.75,
+    this.map=L.map(container,{zoomControl:false,minZoom:11,maxZoom:17,zoomSnap:.25,zoomDelta:.75,
       scrollWheelZoom:true,wheelPxPerZoomLevel:100,inertia:true,zoomAnimation:!this.reduced,
       fadeAnimation:!this.reduced,markerZoomAnimation:!this.reduced,attributionControl:true})
-    const center=L.latLng(data.map.center[1],data.map.center[0]),z=data.map.zoom+1
+    const center=L.latLng(data.map.center[1],data.map.center[0])
     this.map.setView(center,14.25,{animate:false})
-    const c=this.map.project(center,z),w=data.map.width/data.map.scale,h=data.map.height/data.map.scale
-    this.overviewBounds=L.latLngBounds(this.map.unproject(c.subtract([w/2,-h/2]),z),this.map.unproject(c.add([w/2,-h/2]),z))
-    L.imageOverlay('map.png',this.overviewBounds,{pane:'tilePane',zIndex:0,attribution:'底图 © <a href="https://www.amap.com/" target="_blank" rel="noopener noreferrer">高德地图</a>',interactive:false}).addTo(this.map)
-    this.detailTiles=L.tileLayer('maps/{z}/{x}/{y}.png',{tileSize:manifest.tileSize,minNativeZoom:manifest.nativeZoom,
-      maxNativeZoom:manifest.nativeZoom,minZoom:14.5,maxZoom:18,bounds:manifest.bounds,noWrap:true,
-      updateWhenIdle:true,keepBuffer:1,detectRetina:false}).addTo(this.map)
-    const coverage=L.latLngBounds(manifest.bounds).extend(this.overviewBounds)
+    // Every zoom uses the same grid and its own source images across the view.
+    // A finite cache is intentional; never request absent tile coordinates.
+    const CachedTiles=L.TileLayer.extend({
+      getTileUrl(coords){
+        const range=manifest.levels[String(coords.z)]?.tileRange
+        if(!range||coords.x<range[0]||coords.x>range[2]||coords.y<range[1]||coords.y>range[3])return 'maps/outside.svg'
+        return L.TileLayer.prototype.getTileUrl.call(this,coords)
+      }
+    })
+    this.detailTiles=new CachedTiles('maps/{z}/{x}/{y}.png',{
+      tileSize:manifest.tileSize,minNativeZoom:manifest.minZoom,maxNativeZoom:manifest.maxNativeZoom,
+      minZoom:manifest.minZoom,maxZoom:17,noWrap:true,updateWhenIdle:true,keepBuffer:1,detectRetina:false,
+      attribution:'底图 © <a href="https://www.amap.com/" target="_blank" rel="noopener noreferrer">高德地图</a>'
+    }).addTo(this.map)
+    const coverage=L.latLngBounds(manifest.coverageBounds)
     this.map.setMaxBounds(coverage)
-    this.map.options.maxBoundsViscosity=.9
+    this.map.options.maxBoundsViscosity=1
     this.routes=L.featureGroup().addTo(this.map)
     this.stations=L.layerGroup().addTo(this.map)
     this.clusters=L.markerClusterGroup({maxClusterRadius:48,showCoverageOnHover:false,
