@@ -33,9 +33,10 @@ def annotate(record, as_of):
     record['source_group'] = source_group(record['source_url'])
     verification = record.get('verification', {})
     read_at = date_only(verification.get('read_at'))
-    current_read = bool(verification.get('method') == 'direct_http' and verification.get('http_status') == 200
+    readable_method = verification.get('method') in ['direct_http', 'browser_rendered']
+    current_read = bool(readable_method and verification.get('http_status') == 200
                         and verification.get('readable_body') and read_at and 0 <= (as_of-read_at).days <= 7)
-    direct = bool(verification.get('method') == 'direct_http' and verification.get('readable_body'))
+    direct = bool(readable_method and verification.get('http_status') == 200 and verification.get('readable_body'))
     availability = record.get('availability_status', 'unconfirmed')
     last_active = date_only(record.get('publisher_last_active_at'))
     inactive = bool(last_active and (as_of-last_active).days > 30)

@@ -189,3 +189,106 @@ body.map-fullscreen{overflow:hidden}
 .source-audit table{min-width:480px;font-size:11px}
 .source-audit td,.source-audit th{padding:8px 12px}
 @media(max-width:720px){.filter-popover{max-height:calc(100svh - 240px);overflow:auto}.map-page .research-summary .source-audit{margin-top:4px}.source-audit summary{font-size:11px}.source-audit p{font-size:10px}.update-banner{font-size:11px}}
+
+/* Finding a room: compare prices in the list, then inspect one matched record */
+.map-page .explorer{grid-template-columns:minmax(0,1fr) 394px;height:clamp(480px,calc(100svh - 210px),860px)}
+.budget-label{flex:none}
+.map-page .budget-label select{min-width:155px;height:44px;margin:0;font-size:13px;border-radius:8px}
+.map-page .search-box{max-width:none;min-width:180px}
+.map-page .commute-label select{min-width:230px}
+#quoted-filter{margin-left:auto;display:flex;gap:7px;align-items:center;color:var(--walk)}
+#quoted-filter[aria-pressed=true]{background:#e6f3ed;border-color:#9bbfb0;color:#116b53}
+#quoted-count{font-variant-numeric:tabular-nums;font-size:11px}
+#saved-filter{margin-left:0}
+#filter-count{font-size:10px;color:var(--walk)}
+.list-sort{display:flex;align-items:center;justify-content:space-between;padding:9px 17px;border-bottom:1px solid var(--line);gap:8px;flex:none;color:var(--muted);font-size:11px}
+.list-sort[hidden]{display:none}
+.list-sort select{min-width:0;font-size:11px;height:30px;margin:0;padding:3px 7px;border:0;background:#f2f6f9;border-radius:4px}
+.place-row{padding:17px 18px}
+.place-row-main{padding-right:26px}
+.place-row-main>b{font-size:14px;font-weight:600;line-height:1.65}
+.place-row-main>small{font-size:11px;line-height:1.7;margin:4px 0 10px}
+.place-row-main .row-price{display:flex;align-items:baseline;gap:4px;margin-bottom:3px}
+.row-price b{font-size:20px;line-height:1.4;letter-spacing:-.4px;color:var(--ink);font-weight:600}
+.row-price small{font-size:10px;color:var(--muted)}
+.price-unknown{font-size:14px;color:var(--muted);font-weight:400}
+.row-evidence{font-size:10px;color:var(--muted);display:block}
+.row-times{font-size:11px;gap:15px;padding-top:7px;margin-top:7px}
+.row-save{right:7px;top:12px}
+.place-row.is-selected{background:#edf4f8;border-left:3px solid #203449;padding-left:15px}
+.rent-overview{padding:14px 0 12px;margin:8px 0 0;border-top:1px solid var(--line)}
+.overview-price{display:flex;gap:5px;align-items:baseline}
+.overview-price b{font-size:27px;line-height:1.3;font-weight:600;letter-spacing:-.6px}
+.overview-price small{font-size:11px;color:var(--muted)}
+.rent-overview p{font-size:11px;margin-top:5px;color:#526b82}
+.rent-overview>span{font-size:10px;color:var(--muted);display:block;margin-top:3px}
+.map-page .times{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin:2px 0 12px;padding:10px 0 12px;border-top:0;border-bottom:1px solid var(--line)}
+.map-page .time-item strong{font-size:21px;line-height:1.5;display:block;white-space:nowrap}
+.map-page .time-item strong em{font-size:10px;margin-left:3px}
+.map-page .time-item span{font-size:10px;white-space:nowrap}
+.route-picker{margin:6px 0 9px}
+.commute-details{margin:5px 0 18px;font-size:12px;border:1px solid var(--line);border-radius:6px;padding:10px 12px;background:#fbfcfd}
+.commute-details>summary{cursor:pointer;font-size:12px;color:var(--ink)}
+.commute-details>summary>span{float:right;font-size:10px;color:var(--muted);padding-top:2px}
+.commute-details .route-heading{margin-top:16px}
+.rental-section-title{display:flex;align-items:center;justify-content:space-between;margin:20px 0 12px}
+.rental-section-title h4{font-size:13px;margin:0;font-weight:600}
+.rental-section-title>span{font-size:11px;color:var(--muted)}
+.map-page .listing{padding:14px 0 16px;border:0;border-top:1px solid var(--line);border-radius:0;margin:0;background:white}
+.listing-name{font-size:13px;margin:0 0 8px;font-weight:550;line-height:1.8}
+.listing-price-line{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin:5px 0 10px}
+.map-page .listing-price{font-size:20px;color:var(--ink);line-height:1.4;letter-spacing:-.2px}
+.listing-price-line>span{font-size:10px;background:#eff4f7;color:#536b80;padding:2px 6px;border-radius:3px;flex:none}
+.room-facts{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:11px;color:var(--ink);margin:8px 0}
+.room-facts>span+span{border-left:1px solid var(--line);padding-left:12px}
+.listing-fees{font-size:11px;line-height:1.9;margin:7px 0;overflow-wrap:anywhere}
+.listing-source{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:11px;margin:10px 0}
+.listing-source>span{font-size:10px;color:var(--muted);flex:none}
+.listing-more{font-size:11px;margin-top:12px}
+.listing-more summary,.more-quotes summary{font-size:11px;color:#526b82;cursor:pointer}
+.listing-more dl{margin-top:12px;grid-template-columns:94px minmax(0,1fr)}
+.more-quotes{margin:8px 0 18px}
+.reference-listings .listing{padding:12px;background:#f8fafc;margin-top:12px;border:1px solid var(--line);border-radius:5px}
+.map-page .research-summary{display:block;margin-top:14px;padding:15px 0}
+.snapshot-line{display:flex;align-items:baseline;gap:9px 22px;flex-wrap:wrap}
+.map-page .snapshot-line strong{font-size:13px;font-weight:550;color:var(--ink)}
+.snapshot-line>span{font-size:11px;color:var(--muted)}
+.map-page .research-summary .source-audit{margin:9px 0 0;font-size:11px}
+.table-description{font-size:11px;margin-top:4px;color:var(--muted)}
+.map-page .poi-name{font-size:13px}
+.map-page .list-empty{line-height:1.9}
+.list-empty p+p{font-size:12px;margin-top:8px}
+.list-empty button{margin-top:15px}
+@media(max-width:1100px) and (min-width:721px){.map-page .explorer{grid-template-columns:minmax(0,1fr) 354px}.map-page .commute-label select{min-width:200px;font-size:12px}.map-page .budget-label select{min-width:135px;font-size:12px}.toolbar-top{gap:7px}.primary-button{padding-left:12px;padding-right:12px}.map-page .kind-buttons button{padding:6px 7px}#quoted-filter{font-size:11px;padding:6px 8px}.toolbar-bottom{gap:7px}}
+@media(max-width:720px){
+ .toolbar-top{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:7px}
+ .map-page .search-box{min-width:0;grid-column:1;grid-row:1}.primary-button{grid-column:2;grid-row:1}
+ .commute-label{grid-column:1;grid-row:2;min-width:0}.budget-label{grid-column:2;grid-row:2;min-width:0}
+ .map-page .commute-label select,.map-page .budget-label select{width:100%;min-width:0;height:36px;font-size:12px;border-radius:5px;padding:4px 8px}
+ .toolbar-bottom{display:flex;flex-wrap:wrap;gap:7px;margin-top:7px}
+ .map-page .kind-buttons{flex-basis:100%;flex-shrink:0;order:0}
+ #quoted-filter{order:1;margin:0 auto 0 0;min-height:33px;font-size:11px;padding:5px 9px}
+ #saved-filter{order:2}.advanced-filters{order:3}
+ .map-page .explorer{height:max(570px,calc(100svh - 243px));display:block}
+ .place-panel{height:184px}.place-panel.is-expanded{height:82%;max-height:720px}
+ .place-panel:not(.is-expanded) .list-sort{display:none}
+ .place-panel:not(.is-expanded) #place-list .place-row{padding:11px 15px}
+ .place-panel:not(.is-expanded) #place-list .row-price{display:flex}
+ .place-panel:not(.is-expanded) #place-list .place-row-main>small{margin:2px 0 4px;font-size:10px}
+ .place-panel:not(.is-expanded) #place-list .row-evidence{display:none}
+ .place-panel:not(.is-expanded) #detail{display:flex;flex-direction:column;gap:0;padding:10px 16px}
+ .place-panel:not(.is-expanded) #detail>.commute-details{display:none}
+ .place-panel:not(.is-expanded) #detail h3{font-size:16px;line-height:1.6}
+ .place-panel:not(.is-expanded) #detail>.rent-overview{order:1;padding:3px 0 0;margin:0;border:0}
+ .place-panel:not(.is-expanded) .overview-price b{font-size:22px}.place-panel:not(.is-expanded) .rent-overview p,.place-panel:not(.is-expanded) .rent-overview>span{display:none}
+ .place-panel:not(.is-expanded) #detail>.place-actions{order:2;margin:7px 0 0;flex-shrink:0}
+ .place-panel.is-expanded #detail{padding:14px 16px 25px}
+ .place-panel.is-expanded .time-item strong{font-size:21px}
+ .map-page .leaflet-bottom{bottom:188px}
+ .snapshot-line{display:block}.snapshot-line>span{display:block;margin-top:4px;font-size:10px}
+ .map-page .research-summary .snapshot-line{display:block;flex:none}
+ .map-page .snapshot-line strong{font-size:12px}.source-audit summary{font-size:10px}
+ .listing-price-line>span{font-size:11px}.listing-more summary,.more-quotes summary{font-size:12px;min-height:30px;padding-top:4px}
+}
+.map-page .place-panel #detail[hidden],.map-page .place-panel #place-list[hidden]{display:none}
+.map-page .explorer.is-fullscreen{height:100svh;min-height:0;max-height:none}

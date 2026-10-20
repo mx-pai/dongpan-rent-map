@@ -23,12 +23,14 @@
       <div class="toolbar-top">
         <label class="search-box"><span class="sr-only">搜索小区、公寓、门店或地址</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="search" type="search" placeholder="搜索小区、公寓、门店或地址" autocomplete="off"></label>
         <label class="commute-label"><span class="sr-only">通勤条件</span><select id="commute"><option value="eligible">满足任一通勤条件</option><option value="walk">步行 ≤30 分钟</option><option value="bike">自行车 ≤20 分钟</option><option value="metro">地铁 / 分段合计 ≤20 分钟</option><option value="rail">地铁乘车 ≤20 分钟，接驳另计</option><option value="all">全部已测点位</option></select></label>
+        <label class="budget-label"><span class="sr-only">月租预算</span><select id="budget"><option value="all">月租预算不限</option><option value="3000">3000 元以内</option><option value="5000">5000 元以内</option><option value="8000">8000 元以内</option></select></label>
         <button id="open-export" class="primary-button">带到高德 <span aria-hidden="true">↗</span></button>
       </div>
       <div class="toolbar-bottom">
         <div class="kind-buttons" role="group" aria-label="住宿类型"><button data-kind="all" class="active" aria-pressed="true">全部</button><button data-kind="housing" aria-pressed="false">住宅小区</button><button data-kind="apartment" aria-pressed="false">公寓</button><button data-kind="hotel" aria-pressed="false">酒店</button><button data-kind="hostel" aria-pressed="false">青旅 / 青年住宿</button></div>
+        <button id="quoted-filter" class="quiet-button" aria-pressed="false">有近期报价 <span id="quoted-count"></span></button>
         <button id="saved-filter" class="quiet-button" aria-pressed="false">备选 <span id="saved-count">0</span></button>
-        <details class="advanced-filters"><summary>更多筛选</summary><div class="filter-popover"><div class="evidence-filters"><label>租住方式<select id="rental-mode"><option value="all">全部租住方式</option><option value="share">住宅合租</option><option value="whole">住宅整租</option><option value="apartment">公寓独立单元</option><option value="room">酒店 / 青旅独立客房</option><option value="bed">青旅多人间床位</option></select></label><label>信息条件<select id="evidence-filter"><option value="all">全部核查结果</option><option value="monthly">7天内直读原页报价</option><option value="direct">本次已直读原页</option><option value="bathroom">有独立卫浴信息</option><option value="missing">现价仍待核</option></select></label><label>月租样本上限<select id="budget"><option value="all">先了解市场，不限预算</option><option value="3000">3000 元 / 月以内</option><option value="5000">5000 元 / 月以内</option><option value="8000">8000 元 / 月以内</option></select></label><label>资料来源<select id="source-filter"><option value="all">全部资料来源</option></select></label><label class="verified-label"><input id="private-room" type="checkbox">已找到独立房间信息</label></div><p>预算按7天内直读原页且无满房、未来入住或过期标记的报价筛选，原始日期与实际空房状态分别列出</p><button id="reset-filters" class="quiet-button">重置全部筛选</button></div></details>
+        <details class="advanced-filters"><summary>更多筛选<span id="filter-count"></span></summary><div class="filter-popover"><div class="evidence-filters"><label>租住方式<select id="rental-mode"><option value="all">全部租住方式</option><option value="share">住宅合租</option><option value="whole">住宅整租</option><option value="apartment">公寓独立单元</option><option value="room">酒店 / 青旅独立客房</option><option value="bed">青旅多人间床位</option></select></label><label>信息条件<select id="evidence-filter"><option value="all">全部核查结果</option><option value="monthly">7天内读取的原页报价</option><option value="direct">已读取原页</option><option value="bathroom">有独立卫浴依据</option><option value="missing">含现价待核资料</option></select></label><label>资料来源<select id="source-filter"><option value="all">全部资料来源</option></select></label><label class="verified-label"><input id="private-room" type="checkbox">有独立房间依据</label></div><p>同一条房源需同时满足来源、房型、卫浴与预算条件，近期报价为7天内读取的页面标价，附加费用和实际空房另行确认</p><button id="reset-filters" class="quiet-button">重置全部筛选</button></div></details>
       </div>
     </section>
     <section class="explorer" aria-label="地图与住处信息">
@@ -40,6 +42,7 @@
       </div>
       <aside class="place-panel" aria-label="地点列表与详情">
         <div class="panel-tabs" role="tablist" aria-label="地点面板"><button id="tab-list" role="tab" aria-selected="false" aria-controls="place-list" tabindex="-1">地点列表 <span id="list-count"></span></button><button id="tab-detail" role="tab" aria-selected="true" aria-controls="detail" tabindex="0">地点详情</button><button id="collapse-panel" class="panel-collapse" aria-label="展开地点详情" aria-expanded="false">展开</button></div>
+        <div class="list-sort"><label for="sort">候选地点</label><select id="sort"><option value="recommended">报价与通勤优先</option><option value="price">月租从低到高</option><option value="walk">步行从近到远</option><option value="bike">骑行从近到远</option></select></div>
         <div id="place-list" role="tabpanel" aria-labelledby="tab-list" hidden></div>
         <div id="detail" role="tabpanel" aria-labelledby="tab-detail"></div>
       </aside>
@@ -47,7 +50,7 @@
     <p class="map-footnote">双指缩放或滚轮放大，点击数字圆圈展开密集地点 · 地图展示已测区域，多级底图与路线快照 2026-10-19 · <a href="method.html#map-export">高德打开方式与测量口径</a></p>
     <section id="research-summary" class="research-summary" aria-label="信息覆盖情况"></section>
     <section class="list-section" id="full-list">
-      <div class="section-line"><h2>当前点位清单</h2><div class="list-actions"><button id="copy-list">复制名称与地址</button><button id="download-csv">导出 CSV</button><button id="download-data">下载完整数据</button></div></div>
+      <div class="section-line"><div><h2>当前点位清单</h2><p class="table-description">与上方筛选同步，租金按匹配房源的页面标价展示</p></div><div class="list-actions"><button id="copy-list">复制名称与地址</button><button id="download-csv">导出 CSV</button><button id="download-data">下载完整数据</button></div></div>
       <div class="table-wrap"><table><thead><tr><th>住处 / 门店</th><th>步行</th><th>自行车</th><th>地铁自动全程</th><th>分段最佳合计</th><th>租住信息</th></tr></thead><tbody id="poi-table"></tbody></table></div>
       <p id="empty-state" hidden>当前条件没有匹配地点，可以调整筛选或查看全部已测点位</p>
     </section>
@@ -56,6 +59,6 @@
   <dialog id="export-dialog" aria-labelledby="export-title"><div class="dialog-head"><h2 id="export-title">带到高德</h2><button data-close-dialog aria-label="关闭">×</button></div><div id="export-content"></div></dialog>
   <dialog id="copy-dialog" aria-labelledby="copy-title"><div class="dialog-head"><h2 id="copy-title">选中文字复制</h2><button data-close-dialog aria-label="关闭">×</button></div><textarea id="copy-fallback" readonly aria-label="待复制内容"></textarea><p>当前浏览器未允许自动复制，可以长按或全选后复制</p></dialog>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <script src="vendor/leaflet/leaflet.js"></script><script src="vendor/leaflet/markercluster.js"></script><script src="amap-links.js"></script><script src="map.js"></script><script src="app.js"></script>
+  <script src="vendor/leaflet/leaflet.js"></script><script src="vendor/leaflet/markercluster.js"></script><script src="amap-links.js"></script><script src="evidence.js"></script><script src="map.js"></script><script src="app.js"></script>
 </body>
 </html>

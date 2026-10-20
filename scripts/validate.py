@@ -52,7 +52,7 @@ for point in data['points']:
                 assert isinstance(price, (int, float)) and price > 0
             if record['current_quote_eligible']:
                 verification = record['verification']
-                assert record['direct_read'] and verification['method'] == 'direct_http'
+                assert record['direct_read'] and verification['method'] in ['direct_http', 'browser_rendered']
                 assert verification['http_status'] == 200 and verification['readable_body']
                 age = (date_only(audit['as_of'])-date_only(verification['read_at'])).days
                 assert 0 <= age <= 7
@@ -61,9 +61,8 @@ for point in data['points']:
                 assert not record.get('historical')
             if record['freshness']['code'] in ['full', 'future', 'expired', 'inactive', 'reference', 'historical']:
                 assert not record['current_quote_eligible']
-            # User activity and structured-data response dates never imply publication.
-            if record.get('publisher_last_active_at'):
-                assert not record.get('original_published_at'), 'Publication date needs separate primary evidence'
+            # Keep user activity independent from any evidenced publication date.
+            assert record['freshness']['publication_date_known'] == bool(record.get('original_published_at') or record.get('listing_updated_at'))
         assert isinstance(research.get('missing_fields'), list)
 
 for path in site.rglob('*'):
